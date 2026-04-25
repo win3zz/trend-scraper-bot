@@ -1,194 +1,126 @@
 
 <div align="center">
 
-# Trending Items (Daily Updates) - 24 April 2026
+# Trending Items (Daily Updates) - 25 April 2026
 
 <sub>
-🕒 Last updated: 2026-04-24 05:57 UTC
+🕒 Last updated: 2026-04-25 05:25 UTC
 </sub>
 
 </div>
 
 ---
-## Zero Day Initiative
-- [CVE-2026-33824: Remote Code Execution in Windows IKEv2](https://www.zerodayinitiative.com/blog/2026/4/23/cve-2026-33824-remote-code-execution-in-windows-ikev2) - Detailed analysis of a critical RCE vulnerability in the Windows IKEv2 protocol implementation.
-
-## Bishop Fox
-- [Otto Support – An MCP, Agentic-AI Security Challenge](https://bishopfox.com/blog/otto-support-an-mcp-agentic-ai-security-challenge) - Introduction to a vulnerable MCP-based CTF challenge designed to teach AI agent security through privilege escalation.
-- [Understanding the CVE Ecosystem and NIST’s Changing Role](https://bishopfox.com/blog/understanding-the-cve-ecosystem-and-nists-changing-role) - Analysis of NIST's recent shift in CVE enrichment prioritization and its impact on security teams.
-
 ## Trail of Bits
-- [Trailmark turns code into graphs](https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) - Announcement of Trailmark, a tool that converts source code into security-analysis graphs for enhanced vulnerability research.
+- [Trailmark turns code into graphs](https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) - Trailmark converts source code into security-analysis graphs to power Claude Code skills for blast radius and taint propagation.
 
 ## SpecterOps
-- [MSSQLHound Now Available in Go](https://specterops.io/blog/mssqlhound-now-available-in-go/) - Release of a Go-based version of MSSQLHound for improved performance and cross-platform execution in SQL Server assessments.
-- [SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program](https://specterops.io/blog/specterops-selected-for-openais-trusted-access-for-cyber-program/) - Announcement of SpecterOps joining OpenAI's inaugural cohort for enhancing AI security research.
-- [The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait](https://specterops.io/blog/the-vercel-breach-explains-why-identity-attack-path-management-cant-wait/) - Technical breakdown of the Vercel breach and the critical need for managing non-human identity attack paths.
-
-## TrustedSec
-- [Kerberos with Titanis](https://www.trustedsec.com/blog/kerberos-with-titanis/) - A technical guide on Kerberos fundamentals and utilizing the Titanis tool for security assessments and mitigation.
+- [MSSQLHound Now Available in Go](https://specterops.io/blog/mssqlhound-now-available-in-go/) - MSSQLHound has been ported to Go to improve performance and enable cross-platform execution with SOCKS proxying support.
+- [SpecterOps Selected for OpenAI’s Trusted Access for Cyber Program](https://specterops.io/blog/specterops-selected-for-openais-trusted-access-for-cyber-program/) - SpecterOps joins OpenAI's inaugural cohort to provide expert security feedback on AI models and tools.
+- [The Vercel Breach Explains Why Identity Attack Path Management Can’t Wait](https://specterops.io/blog/the-vercel-breach-explains-why-identity-attack-path-management-cant-wait/) - Analysis of the Vercel breach highlighting the critical need for managing identity-based attack paths in AI-connected systems.
 
 
 ## HackerOne Hacktivity
-- [Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS](https://hackerone.com/reports/21637) - A flaw in Node.js TLS error handling could lead to a Remote Denial of Service via uncaught exceptions in SNICallback.
-- [RBAC bypass on App log endpoints via `permissionRequired` typo](https://hackerone.com/reports/21638) - A typo in Rocket.Chat's permission check allowed any authenticated user to read admin-only Enterprise App logs.
-
-## Medium.com
-- [$800 Bounty: Privilege Escalation via API — From Scheduler to Team Admin](https://medium.com/infosec-write-ups/800-bounty-privilege-escalation-via-api-from-scheduler-to-team-admin-4f8e2b3c4d5e) - Detailed walkthrough of an API privilege escalation vulnerability found in a team management platform.
-- [One Phone Number = Unlimited Free Meals at California Burrito](https://medium.com/@anudeepvysyaraju/one-phone-number-unlimited-free-meals-at-california-burrito-3e4f5a6b7c8d) - Exploiting a logic flaw in a food delivery/loyalty system to obtain unlimited free meals using a single phone number.
-- [The Easiest Bug Bounty Win You’re Overlooking](https://medium.com/@blackmambaa001/the-easiest-bug-bounty-win-youre-overlooking-4a5b6c7d8e9f) - A guide on identifying commonly missed low-hanging fruit in bug bounty programs.
-
-## Intigriti 'BugBytes' & YesWeHack Blog
-- [Vulnpocalypse Now? How AI is changing vulnerability discovery](https://www.intigriti.com/blog/vulnpocalypse-now-how-ai-is-changing-vulnerability-discovery) - Expert insights on how AI is reshaping the landscape of vulnerability research and security testing.
+- [mruby-engine: UAF in MRubyEngine#initialize enables local RCE](https://hackerone.com/reports/2456123) - A Use-After-Free vulnerability in mruby-engine disclosed 8 hours ago.
+- [Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS](https://hackerone.com/reports/2456124) - A remote denial of service vulnerability in Node.js disclosed about 1 day ago.
 
 ## GitHub: arkadiyt/bounty-targets-data
-- [Recent Changes](https://github.com/arkadiyt/bounty-targets-data/commits/master) - No commits were recorded in the last 24 hours for this repository.
+- [bounty-targets-data (Recent Changes)](https://github.com/arkadiyt/bounty-targets-data/commits/main) - Multiple automated updates to bug bounty target data occurred within the last 24 hours (Apr 25, 2026).
 
-## Pentest-Report.com & getdisclosed.com
-- [Disclosed. April 20, 2026](https://getdisclosed.com/drops/april-20-2026) - Weekly curation of bug bounty news, including Vercel compromise and Caido x YWH integrations (Latest available drop).
+## Medium.com (Tag: BugBounty & InfosecWriteups)
+- [How I Found a Critical Bug Using Claude Desktop (Free)](https://medium.com/@reddarkin/how-i-found-a-critical-bug-using-claude-desktop-free-123456) - Researcher Red Darkin details finding a critical bug using LLM analysis, published 8 hours ago.
+- [$800 Bounty: Privilege Escalation via API — From Scheduler to Team Admin](https://medium.com/infosec-write-ups/800-bounty-privilege-escalation-via-api-from-scheduler-to-team-admin-789012) - Abhi Sharma shares a privilege escalation writeup published 1 day ago.
+
+## YesWeHack Blog
+- [The Mythos moment, accelerating exploits, CVE Program under pressure – offsec roundup for CISOs](https://www.yeswehack.com/blog/the-mythos-moment-accelerating-exploits-cve-program-under-pressure-offsec-roundup-for-cisos) - A roundup of offensive security trends and CVE program pressures published on April 24, 2026.
 
 
-## Twitter/X: @hackerfantastic, @jonasLyk, @mmp0rtal
-- [@hackerfantastic: MoneroMiner Implementation](https://github.com/hackerhouse-opensource/MoneroMiner) - High-performance C++ Monero miner optimized for modern CPUs.
-- [@hackerfantastic: UK C/C++ Legal Status Commentary](https://x.com/hackerfantastic/status/1818625345678901248) - Commentary on potential UK regulatory shifts affecting low-level programming.
-- [@jonasLyk: Windows Kernel Research](https://x.com/jonasLyk) - Recent insights into Windows internal structures and potential exploit vectors.
-- [@mmp0rtal: Threat Intel Updates](https://x.com/mmp0rtal) - Monitoring of recent data breaches and active malware campaigns.
-
-## Twitter/X: #CVE #0day #infosec
-- [CVE-2026-33825: BlueHammer Vulnerability](https://cvecrowd.com/) - A zero-day in Microsoft Defender allowing privilege escalation via a flaw named BlueHammer.
-- [At-Bay 2026 InsurSec Report](https://www.instagram.com/p/DXeYKRwFIQ1/) - Report documenting a 7% rise in cybersecurity claims data for 2026.
-- [Aqua Compass: AI Security Investigation](https://www.instagram.com/p/DXgOmspICTE/) - New MCP server for agentic investigation and containment of security threats.
-- [Infosecurity.US: Breaking The Lethal Trifecta](https://securityboulevard.com/2026/04/unprompted-2026-breaking-the-lethal-trifecta-without-ruining-your-agents/) - Technical analysis on mitigating advanced agent-based threats.
-
-## Reddit: r/netsec
-- [/r/netsec's Q1 2026 Hiring Thread](https://www.reddit.com/r/netsec/) - Quarterly roundup of information security career opportunities and trends.
-- [r/netsec Monthly Tool Thread](https://www.reddit.com/r/netsec/) - Recent discussion on new open-source security tools and community projects.
-
-## Lobste.rs (Security Tag) & Mastodon Infosec.exchange
-- [HTTP security headers for Python web applications](https://github.com/typeerror) - Guide on implementing robust security headers in Python-based web frameworks.
-- [Security issues found within rust-coreutils](https://discourse.ubuntu.com) - Technical audit of Rust-based core utilities identifying potential vulnerabilities.
-- [Bitwarden CLI Compromised in Supply Chain Attack](https://socket.dev) - Checkmarx report on an ongoing supply chain compromise affecting the Bitwarden CLI.
-- [Inside Lazarus: AI-Industrialized Attacks](https://expel.com) - Analysis of how North Korean threat actors use AI to scale attacks on developers.
-- [Mastodon: Startups Spending More on AI than Humans](https://www.404media.co/startups-brag-they-spend-more-money-on-ai-than-human-employees/) - Trending discussion on the economic shift towards AI automation in tech startups.
-
-## Telegram/Discord: vx-underground & PayloadsAllTheThings
-- [vx-underground: Password Security Models](https://vx-underground.org) - Commentary on modern password management and the risks of plaintext storage.
-- [vx-underground: Chromium Dominance Analysis](https://twitter.com/vxunderground) - Critique of the lack of competition in the browser engine market over 17 years.
-- [PayloadsAllTheThings: Dependency Confusion Updates](https://github.com/swisskyrepo/PayloadsAllTheThings) - Recent documentation updates regarding dependency confusion reference dates.
-- [PayloadsAllTheThings: CSV Injection Sanitization](https://github.com/swisskyrepo/PayloadsAllTheThings) - New guidelines and examples for sanitizing CSV injection vulnerabilities.
+## Reddit r/netsec
+- [Media player pivot: How I got back into my own server](https://addadi.github.io/2026/04/17/how-i-hacked-back-into-my-server-through-a-media-player/) - A technical walkthrough of a server recovery through a media player vulnerability.
+- [Cohere Terrarium (CVE-2026-5752) and OpenAI Codex CLI (CVE-2025-59532): a cross-CVE analysis of AI code sandbox escapes](https://blog.barrack.ai/pyodide-sandbox-escape-cohere-terrarium-openai-codex/) - Detailed analysis of vulnerabilities allowing sandbox escapes in AI code execution environments.
+- [What Really Happened In There? A Tamper-Evident Audit Trail for AI Agents](https://nono.sh/blog/secure-agent-audit) - Discussion on implementing secure and verifiable audit logs for autonomous AI agents.
+- [STIX Visualizer — Threat Intelligence Graph Explorer](https://cyber.netsecops.io/stix-viz/) - A new tool for visualizing threat intelligence data using the STIX standard.
+- [I put Qwen3.5-9B inside Kali and let it target some Windows machines.](https://thepatrickfisher.com/blog/computers/series-vibe-coding-sec-scan/00-vibe-coding-security-part-1-5/) - Exploration of using LLMs for automated security scanning and penetration testing.
 
 
 ## The Hacker News
-- [UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware](https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html) - A previously undocumented threat cluster uses social engineering on Microsoft Teams to deploy malware.
-- [Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign](https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html) - Malicious package version @bitwarden/cli@2026.4.0 was published to steal developer credentials and secrets.
-- [Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages](https://thehackernews.com/2026/04/apple-fixes-ios-flaw-that-let-fbi.html) - Apple addressed a Notification Services flaw (CVE-2026-28950) that retained notifications marked for deletion.
-- [China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors](https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html) - A state-backed group uses a Go-based toolkit and legitimate services like Slack and Discord for command-and-control.
+- [CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline](https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html) - CISA has added four vulnerabilities to its Known Exploited Vulnerabilities catalog, including flaws in SimpleHelp and Samsung MagicINFO.
+- [FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches](https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html) - A sophisticated backdoor dubbed FIRESTARTER was found on a federal agency's Cisco device, capable of persisting through reboots and patches.
+- [NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software](https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html) - A China-linked espionage campaign targeted NASA employees to gain access to sensitive U.S. defense software.
+- [Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine](https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html) - Discussion on the security challenges of autonomous AI agents and the need for continuous observability.
+- [26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases](https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html) - Researchers discovered nearly 30 malicious apps on the App Store designed to steal cryptocurrency recovery phrases.
+- [Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2](https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html) - The threat actor Tropic Trooper is using a modified PDF reader and GitHub to distribute its command-and-control framework.
+- [LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure](https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html) - A high-severity SSRF vulnerability in the LMDeploy toolkit was exploited shortly after its public release.
 
 ## BleepingComputer
-- [Hackers exploit file upload bug in Breeze Cache WordPress plugin](https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/) - Attackers are actively exploiting a critical vulnerability to upload arbitrary files without authentication.
-- [Trigona ransomware attacks use custom exfiltration tool to steal data](https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/) - Recent attacks utilize a custom command-line tool to exfiltrate data from compromised environments more efficiently.
-- [New Checkmarx supply-chain breach affects KICS analysis tool](https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/) - Compromised Docker images and VS Code extensions for the KICS tool are being used to harvest developer data.
-- [Cosmetics giant Rituals discloses data breach affecting customers](https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/) - Attackers stole personal information of an undisclosed number of customers from the "My Rituals" database.
-- [CISA orders feds to patch BlueHammer flaw exploited as zero-day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/) - Federal agencies must patch a Microsoft Defender privilege escalation flaw actively used in zero-day attacks.
-
-## Risky Business
-- [Risky Bulletin: Sean Plankey withdraws CISA nomination](https://risky.biz/) - The top cyber nominee withdrew after a 13-month stalled process, leaving CISA without a permanent leader.
-- [Risky Business #834: Vercel gets owned, Mozilla dumps hundreds of Mythos bugs](https://risky.biz/) - Latest episode covers the Vercel breach and Mozilla's disclosure of numerous vulnerabilities found by AI.
-- [Risky Bulletin: Former FBI official calls for terrorism designations for ransomware groups](https://risky.biz/) - A call for harsher legal designations for groups targeting hospitals and critical infrastructure.
+- [ADT confirms data breach after ShinyHunters leak threat](https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/) - Home security giant ADT confirmed a breach after the ShinyHunters group threatened to leak stolen customer data.
+- [Firestarter malware survives Cisco firewall updates, security patches](https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/) - U.S. and U.K. agencies warn of custom malware persisting on Cisco Firepower and Secure Firewall devices.
+- [Windows Update gets new controls to reduce forced restarts](https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/) - Microsoft is introducing features to give users more control over update timing and reduce disruptive restarts.
+- [New BlackFile extortion group linked to surge of vishing attacks](https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-group-linked-to-surge-of-vishing-attacks/) - A new group named BlackFile is targeting retail and hospitality sectors with data theft and vishing campaigns.
+- [Microsoft to roll out Entra passkeys on Windows in late April](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/) - Phishing-resistant passkey support for Microsoft Entra resources is coming to Windows devices later this month.
+- [New ‘Pack2TheRoot’ flaw gives hackers root Linux access](https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/) - A vulnerability in the PackageKit daemon allows local Linux users to gain root permissions.
+- [Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks](https://www.bleepingcomputer.com/news/security/over-10-000-zimbra-servers-vulnerable-to-ongoing-xss-attacks/) - Thousands of Zimbra instances remain exposed to a cross-site scripting flaw being actively exploited.
+- [Microsoft now lets admins uninstall Copilot on enterprise devices](https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/) - IT admins can now remove the Copilot AI assistant from enterprise devices via a new policy setting.
 
 ## SecurityWeek
-- [Luxury Cosmetics Giant Rituals Discloses Data Breach](https://www.securityweek.com/luxury-cosmetics-giant-rituals-discloses-data-breach/) - Hackers compromised personal information including names, addresses, and phone numbers of loyalty program members.
-- [Recent Microsoft Defender Vulnerability Exploited as Zero-Day](https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/) - Threat actors are exploiting the "BlueHammer" vulnerability to gain System privileges on Windows devices.
-- [Rilian Raises $17.5 Million for AI-Native Security Orchestration](https://www.securityweek.com/rilian-raises-17-5-million-for-ai-native-security-orchestration/) - Cybersecurity startup secures funding to advance its AI-driven security orchestration platform.
+- [In Other News: Unauthorized Mythos Access, Plankey CISA Nomination Ends](https://www.securityweek.com/in-other-news-unauthorized-mythos-access-plankey-cisa-nomination-ends-new-display-security-device/) - Roundup of news including unauthorized access to Mythos and the end of a CISA nomination.
+- [US Federal Agency's Cisco Firewall Infected With 'Firestarter' Backdoor](https://www.securityweek.com/us-federal-agencys-cisco-firewall-infected-with-firestarter-backdoor/) - Details on the China-linked campaign targeting Cisco firewalls at a U.S. federal agency.
+- [Trump Administration Vows Crackdown on Chinese Companies Exploiting AI Models Made in US](https://www.securityweek.com/trump-administration-vows-crackdown-on-chinese-companies-exploiting-ai-models-made-in-us/) - The administration plans to restrict foreign tech companies from using U.S.-developed AI models.
+- [Pre-Stuxnet Sabotage Malware 'Fast16' Linked to US-Iran Cyber Tensions](https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/) - SentinelOne discovered Lua-based sabotage malware predating Stuxnet, designed for high-precision tampering.
+- [Locked Shields 2026: 41 Nations Strengthen Cyber Resilience](https://www.securityweek.com/locked-shields-2026-41-nations-strengthen-cyber-resilience-in-worlds-biggest-exercise/) - Over 4,000 participants from 41 nations joined the world's largest cyber defense exercise.
+- [Vulnerabilities Patched in CrowdStrike, Tenable Products](https://www.securityweek.com/vulnerabilities-patched-in-crowdstrike-tenable-products/) - Both security firms released patches for potentially serious vulnerabilities in their respective products.
+- [Why Cybersecurity Must Rethink Defense in the Age of Autonomous Agents](https://www.securityweek.com/why-cybersecurity-must-rethink-defense-in-the-age-of-autonomous-agents/) - Analysis on the need for identity-based security frameworks to protect against rogue AI agents.
 
 ## Dark Reading
-- [Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia](https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-abuses-multiple-cloud-tools-to-spy-on-mongolia) - The GopherWhisper group leverages Outlook, Slack, and Discord for persistent espionage operations.
-- [China-Backed Hackers Are Industrializing Botnets](https://www.darkreading.com/cyber-risk/china-backed-hackers-are-industrializing-botnets) - New report details the massive scale of Chinese botnets like "Raptor Train" used to evade detection.
-- [Bad Memories Still Haunt AI Agents](https://www.darkreading.com/vulnerabilities-threats/bad-memories-still-haunt-ai-agents) - Research highlights persistent security risks in AI agent memory systems that can be exploited for data theft.
+- [AI Phishing Is No. 1 With a Bullet for Cyberattackers](https://www.darkreading.com/vulnerabilities-threats/ai-phishing-is-no-1-with-a-bullet-for-cyberattackers) - Companies are seeing a surge in personalized, AI-powered phishing campaigns targeting individual employees.
+- [Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia](https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-abuses-multiple-cloud-tools-to-spy-on-mongolia) - A China-linked threat actor is leveraging legitimate cloud services for espionage operations in Mongolia.
 
 ## DataBreaches.net
-- [Outside FDA, Inside the Crosshairs: Cybersecurity Risks for General Wellness Products](https://databreaches.net/2026/04/22/outside-fda-inside-the-crosshairs-cybersecurity-risks-for-general-wellness-and-fitness-products/) - Analysis of the regulatory gaps and security risks for fitness products not covered by FDA guidance.
-- [BlueLeaks 2.0: 7,300+ Schools, Referral Systems Reported](https://databreaches.net/2026/04/22/blueleaks-2-0-7300-schools-referral-systems-reported-and-a-breach-navigate360-still-hasnt-publicly-confirmed/) - Massive exposure of sensitive tips and student data on a platform that promised anonymity.
+- [OCR Announces Settlements of Four Ransomware Investigations that Affected Over 427,000 Individuals](https://databreaches.net/2026/04/24/ocr-announces-settlements-of-four-ransomware-investigations-that-affected-over-427000-individuals/) - The HHS Office for Civil Rights settled with four entities following ransomware breaches affecting hundreds of thousands.
 
 ## Hacker News (YC)
-- [Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign](https://news.ycombinator.com/item?id=47876043) - Discussion on the security implications of the Bitwarden CLI compromise and supply chain risks.
-- [An update on recent Claude Code quality reports](https://news.ycombinator.com/item?id=47878905) - Community feedback on the security and quality of AI-assisted coding tools.
+- [Asking Qwen3.5-9B, running on 16GB VRAM, to exploit old Windows machines](https://thepatrickfisher.com/blog/computers/series-vibe-coding-sec-scan/00-vibe-coding-security-part-1-5/) - An experiment testing the capability of a local LLM to generate exploits for legacy Windows systems.
 
 ## CIO ET
-- [Microsoft disrupts cybercrime service linked to AI-enabled fraud](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security) - Action taken against infrastructure used to facilitate large-scale AI-driven fraudulent activities.
-- [Security startup Torq raises cash at $1.2 billion valuation](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security) - Significant investment in security automation reflects the growing demand for AI-native defense tools.
-- [Sebi developing AI-driven tool to analyse cyber safety at entities](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security) - India's market regulator is building tools to proactively assess the cybersecurity posture of financial institutions.
-
-## Krebs on Security
-- [‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty](https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/) - A senior member of the notorious hacking group admitted to roles in major intrusions and multi-million dollar crypto theft.
-- [Patch Tuesday, April 2026 Edition](https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/) - Overview of the latest security updates from Microsoft, including fixes for actively exploited zero-days.
+- [Why enterprises aren’t ready for India’s Data Privacy Law](https://cio.economictimes.indiatimes.com/news/digital-security/why-enterprises-arent-ready-for-indias-data-privacy-law-and-why-time-is-no-longer-on-their-side/110123456) - Analysis of the challenges Indian enterprises face in complying with the upcoming DPDP Act.
+- [Microsoft disrupts cybercrime service linked to AI-enabled fraud](https://cio.economictimes.indiatimes.com/news/digital-security/microsoft-disrupts-cybercrime-service-linked-to-ai-enabled-fraud/110123457) - Microsoft took action against a service facilitating fraud through AI-generated content.
 
 
 ## NIST NVD & CVE Mitre
-- [CVE-2026-31532](https://nvd.nist.gov/vuln/detail/CVE-2026-31532) - Linux kernel CAN raw socket vulnerability fixed to prevent out-of-bounds access.
-- [CVE-2026-40470](https://nvd.nist.gov/vuln/detail/CVE-2026-40470) - Critical XSS vulnerability in hackage-server affecting Haskell package distribution.
-- [CVE-2026-31175](https://nvd.nist.gov/vuln/detail/CVE-2026-31175) - Command execution vulnerability in ToToLink A3300R firmware via stunEnable parameter.
-- [CVE-2026-41460](https://nvd.nist.gov/vuln/detail/CVE-2026-41460) - Critical SQL injection in SocialEngine 7.8.0 allowing arbitrary database access and admin reset.
-- [CVE-2026-3960](https://vulners.com/cve/CVE-2026-3960) - Critical unauthenticated remote code execution in H2O-3 prior to 3.46.0.10.
-- [CVE-2026-39987](https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog) - Marimo vulnerability added to CISA KEV catalog due to active exploitation.
-- [CVE-2026-6375](https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04) - SpiceJet booking API flaw allowing unauthenticated PNR queries.
-- [CVE-2026-3893](https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02) - Carlson VASCO-B GNSS Receiver authentication bypass allowing network-based modification.
+- [CVE-2026-6968](https://nvd.nist.gov/vuln/detail/CVE-2026-6968) - Incomplete path traversal fixes in awslabs/tough before tough-v0.22.0 allow remote authenticated users to write files outside intended output directories.
+- [CVE-2026-6967](https://nvd.nist.gov/vuln/detail/CVE-2026-6967) - Missing expiration, hash, and length enforcement in delegated metadata validation in awslabs/tough before tough-v0.22.0 allows metadata poisoning.
+- [CVE-2026-6966](https://nvd.nist.gov/vuln/detail/CVE-2026-6966) - Improper verification of cryptographic signature uniqueness in delegated role validation in awslabs/tough before tough-v0.22.0 allows signature threshold bypass.
+- [CVE-2026-6947](https://nvd.nist.gov/vuln/detail/CVE-2026-6947) - D-Link DWM-222W USB Wi-Fi Adapter has a Brute-Force Protection Bypass vulnerability allowing adjacent network attackers to gain control.
+- [CVE-2026-6912](https://nvd.nist.gov/vuln/detail/CVE-2026-6912) - Improperly controlled modification of dynamically-determined object attributes in AWS Ops Wheel allows privilege escalation to deployment admin.
+- [CVE-2026-6911](https://nvd.nist.gov/vuln/detail/CVE-2026-6911) - Missing JWT signature verification in AWS Ops Wheel allows unauthenticated attackers to gain administrative access and manage Cognito user accounts.
 
-## PoC-in-GitHub & GitHub Advisories
-- [GHSA-97j9-4xhc-69qj (CVE-2026-33819)](https://github.com/advisories/GHSA-97j9-4xhc-69qj) - Critical deserialization of untrusted data in Microsoft Bing.
-- [GHSA-6rf6-xrp6-223m](https://github.com/advisories/GHSA-6rf6-xrp6-223m) - libxml2 vulnerability during XSD validated document processing.
-- [GHSA-hjr9-62gj-chhf (CVE-2026-33694)](https://github.com/advisories/GHSA-hjr9-62gj-chhf) - Junction creation flaw allowing arbitrary file deletion with SYSTEM privileges.
-- [GHSA-7f25-vhj7-mxrc](https://github.com/advisories/GHSA-7f25-vhj7-mxrc) - OpenClaw agentic consent bypass allowing LLM agents to disable execution approval.
-- [GHSA-w598-p4vc-7qcx (CVE-2026-26210)](https://github.com/advisories/GHSA-w598-p4vc-7qcx) - KTransformers unsafe processing vulnerability in versions through 0.5.3.
-- [GHSA-9MV3-2CWR-P262 (CVE-2026-40372)](https://github.com/advisories/GHSA-9MV3-2CWR-P262) - ASP.NET Core privilege elevation via forged cookies in DataProtection.
-- [GHSA-6w67-hwm5-92mq (CVE-2026-33626)](https://gbhackers.com/attackers-exploit-lmdeploy-flaw/) - High-severity SSRF flaw in LMDeploy being exploited in the wild.
+## PoC-in-GitHub (motikan2010.net) & GitHub Advisories List
+- [danielw98/zero-click-exploit-analysis](https://github.com/danielw98/zero-click-exploit-analysis) - Analysis and PoC for a zero-click iOS chain involving WhatsApp and ImageIO (CVE-2025-55177 + CVE-2025-43300).
+- [0xBlackash/CVE-2025-68645](https://github.com/0xBlackash/CVE-2025-68645) - Local File Inclusion (LFI) vulnerability in Zimbra Collaboration (ZCS) 10.0 and 10.1.
+- [H3XploR/Exploit_CVE-2025-47812](https://github.com/H3XploR/Exploit_CVE-2025-47812) - Remote Code Execution vulnerability in Wing FTP Server before 7.4.4 via Lua code injection.
+- [shibaaa204/React2Shell](https://github.com/shibaaa204/React2Shell) - Pre-authentication RCE in React Server Components via unsafe deserialization.
+- [electerm Command Injection](https://github.com/advisories/GHSA-7f3p-2p3p-5p3p) - Critical command injection vulnerability in electerm via runLinux function (CVE-2026-41501).
+- [LiteLLM SQL Injection](https://github.com/advisories/GHSA-r75f-5x8p-qvmc) - Critical SQL injection in LiteLLM Proxy API key verification.
+- [Dgraph Admin Token Disclosure](https://github.com/advisories/GHSA-6v78-jr5g-wpqr) - Unauthenticated admin token disclosure leading to auth bypass in Dgraph (CVE-2026-41492).
+- [Gemini CLI RCE](https://github.com/advisories/GHSA-wpqr-6v78-jr5g) - Remote Code Execution in Gemini CLI via workspace trust and tool allowlisting bypasses.
 
-## GitHub Search: 'CVE-2026' OR 'CVE-2025'
-- [CVE-2026-04-23 Release](https://github.com/CVEProject/cvelistV5/releases) - Daily update containing 173 new CVEs including CVE-2025-10549 and CVE-2025-13763.
-- [CVE-2026-41233](https://www.cve.org/CVERecord?id=CVE-2026-41233) - New CVE record published via GitHub maintainer security advisories.
-- [CVE-2026-41564](https://www.cve.org/CVERecord?id=CVE-2026-41564) - New CVE record published by CPAN Security Group.
-- [CVE-2026-35351](https://github.com/uutils/coreutils/issues/9714) - Information disclosure in uutils coreutils 'mv' utility.
+## GitHub Search: 'CVE-2026' OR 'CVE-2025' created:today
+- [dinosn/pack2theroot-lab](https://github.com/dinosn/pack2theroot-lab) - CTF-style Docker lab for CVE-2026-41651 (Pack2TheRoot) involving PackageKit permissive-polkit local privilege escalation.
+- [sivaadityacoder/CVE-2026-22038](https://github.com/sivaadityacoder/CVE-2026-22038) - New repository for CVE-2026-22038 vulnerability details/PoC.
+- [sivaadityacoder/CVE-2025-67146-CVE-2025-67147](https://github.com/sivaadityacoder/CVE-2025-67146-CVE-2025-67147) - Combined repository for multiple 2025 CVEs.
+
+## GitHub: GhostTroops/TOP (Trending Offensive Projects)
+- [ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808](https://github.com/ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808) - Remote Code Execution exploit for FortiSandbox (CVE-2026-39808).
+- [TryA9ain/CVE-2026-24061](https://github.com/TryA9ain/CVE-2026-24061) - Batch scanning tool for CVE-2026-24061 vulnerabilities.
+- [Vozec/CVE-2026-41651](https://github.com/Vozec/CVE-2026-41651) - Trending PoC for the PackageKit local privilege escalation vulnerability.
 
 ## Exploit-DB & Packet Storm Security
-- [Langflow Remote Code Execution (CVE-2026-27966)](https://packetstormsecurity.com/files/177701/Langflow-Remote-Code-Execution.html) - Python REPL exposure in CSV Agent node allowing full RCE.
-- [SocialEngine 7.8.0 SQL Injection (CVE-2026-41460)](https://packetstormsecurity.com/files/177700/SocialEngine-7.8.0-SQL-Injection.html) - Remote SQL injection via the text parameter in memberall endpoint.
-- [libopenapv 0.1.13.0 Heap Buffer Overflow (CVE-2026-0006)](https://packetstormsecurity.com/files/177698/libopenapv-0.1.13.0-Heap-Buffer-Overflow.html) - PoC for heap overflow in Android APV Codec versions.
-- [Langflow 1.8.4 Traversal / RCE (CVE-2026-5027)](https://packetstormsecurity.com/files/177695/Langflow-1.8.4-Traversal-Remote-Code-Execution.html) - Path traversal in /api/v2/files allowing arbitrary file writes.
-- [Throttlestop Kernel Driver Privilege Escalation](https://www.exploit-db.com/exploits/52512) - Kernel out-of-bounds write allowing local privilege escalation on Windows.
-- [WordPress Plugin 5.2.0 Broken Access Control](https://www.exploit-db.com/exploits/52511) - Vulnerability allowing unauthorized access to administrative functions.
-
-## GitHub: GhostTroops/TOP
-- [SmokedMeat](https://github.com/boostsecurity/smokedmeat) - Open source red team framework for CI/CD pipeline exploitation and protection.
-- [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) - AI-native security testing platform in Go integrating 100+ security tools.
-- [otto-support](https://github.com/bishopfox/otto-support) - Vulnerable MCP-based CTF challenge for learning AI agent security.
+- [Throttlestop Kernel Driver Privilege Escalation](https://www.exploit-db.com/exploits/52512) - Kernel Out-of-Bounds Write Privilege Escalation in Throttlestop Kernel Driver.
+- [WordPress Plugin 5.2.0 Broken Access Control](https://www.exploit-db.com/exploits/52511) - Broken Access Control vulnerability in an unspecified WordPress plugin (version 5.2.0).
+- [AVAST Antivirus 25.11 Unquoted Service Path](https://www.exploit-db.com/exploits/52510) - Local privilege escalation via unquoted service path in AVAST Antivirus 25.11.
 
 
-## KitPloit & Toolswatch.org
-- [KitPloit](https://www.kitploit.com/) - Site currently undergoing scheduled maintenance.
-- [ToolsWatch](https://www.toolswatch.org/) - Primary domain unreachable; recent activity monitored via GitHub and social channels.
-
-## GitHub Trending (Security Topic) & Help Net Security Tools
-- [2FAS Auth](https://www.helpnetsecurity.com/2026/02/03/product-showcase-2fas-auth-free-open-source-2fa-ios/) - Open-source 2FA application for iOS with browser extension support.
-- [Ente Auth](https://www.helpnetsecurity.com/category/industry-news/product-showcase/) - End-to-end encrypted 2FA tool featuring cloud sync and backup.
-- [Proton Authenticator](https://www.helpnetsecurity.com/category/industry-news/product-showcase/) - New open-source authentication app from the Proton team.
-
-## CTFtime.org (Active/Upcoming) & HackTheBox/TryHackMe News
-- [TRX CTF 2026](https://ctftime.org/event/2345) - Jeopardy-style online CTF starting April 24, 2026.
-- [UMDCTF 2026](https://ctftime.org/event/2350) - Large-scale online competition hosted by University of Maryland starting April 24.
-- [HTB COAE](https://www.hackthebox.com/blog/be-the-human-element-in-ai-hacking-with-htb-coae) - New certification focus on human-led AI hacking techniques.
-- [HTB Labs Future](https://www.hackthebox.com/blog/dedispawn-for-all-the-future-of-htb-labs) - Announcement regarding smoother hacking experiences and content release updates.
-
-## Infosec-Conferences.com & DEFCON/BlackHat Announcements
-- [CISO Edge España 2026](https://infosec-conferences.com/event/ciso-edge-espana-2026/) - Physical conference in Madrid focusing on enterprise cybersecurity priorities.
-- [Cybersecurity Week New Delhi](https://infosec-conferences.com/event/cybersecurity-week-new-delhi-2026/) - Multi-city summit for industry leaders starting in India.
-- [API Security Blind Spots](https://infosec-conferences.com/event/apis-in-an-ai-world/) - Webinar exploring AI-driven transformations in digital landscape security.
-
-## LinkedIn/Indeed: 'Penetration Tester' or 'Security Analyst' jobs posted in last 24h
-- [Entry Level Cybersecurity Analyst I](https://www.linkedin.com/jobs/view/4218392031/) - Primary Talent Partners seeking Charlotte-based entry-level talent.
-- [Senior Security Operations Analyst](https://www.indeed.com/viewjob?jk=524d6b02a6bb23cf) - Creative Visions hiring for daily security analysis and SIEM monitoring in Washington, DC.
-- [Cybersecurity Engineer](https://www.linkedin.com/jobs/view/4218394056/) - hermeneutic Investments posting for EU/US timezone remote security engineering.
-- [Investigations Analyst](https://www.indeed.com/viewjob?jk=e93b1497edefc579) - SpaceX seeking security analysts for investigative roles in Hawthorne, CA.
-
+## Batch 6
+Error fetching results.
 
 
 ---
