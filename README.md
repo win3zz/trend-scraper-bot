@@ -4,7 +4,7 @@
 # Trending Items (Daily Updates) - 29 April 2026
 
 <sub>
-🕒 Last updated: 2026-04-29 05:01 UTC
+🕒 Last updated: 2026-04-29 21:37 UTC
 </sub>
 
 </div>
@@ -12,127 +12,155 @@
 ---
 
 
-## Zero Day Initiative
-- [Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-26-306/) - A race condition in the SoundBlaster 16 device of Oracle VirtualBox allows local attackers to escalate privileges.
-- [(0Day) OpenAI Codex Sandbox Escape Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-26-305/) - A vulnerability in OpenAI Codex allows remote attackers to bypass the sandbox and execute arbitrary code.
+### ZDI Official Blog
+- [Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-26-306/) - A race condition in SoundBlaster 16 emulation allows local attackers to escalate privileges on Oracle VirtualBox.
+- [(0Day) OpenAI Codex Sandbox Escape Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-26-305/) - A zero-day vulnerability in OpenAI Codex allows for sandbox escape via unspecified vectors.
+
+### Trail of Bits Publication Hub
+- [Extending Ruzzy with LibAFL](https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) - Trail of Bits added LibAFL support to their Ruby fuzzer, Ruzzy, enhancing its performance and maintenance.
 
 
-## HackerOne Hacktivity
-- [IBM Aspera HTTP Gateway stores sensitive information in clear text](https://hackerone.com/reports/2948321) - Sensitive information stored in clear text in easily obtainable files could be read by unauthenticated users.
-- [Bypass of Restricted Keyword "Mozilla" in Display Name Field](https://hackerone.com/reports/2947102) - Unicode homoglyphs allowed bypassing restricted keyword filters on addons.allizom.org.
-- [Bypassing Inbox Privacy Settings and Enabling Spam on Pixiv.net](https://hackerone.com/reports/2946543) - Vulnerability in messaging system allowed bypassing privacy settings to send unsolicited messages.
-- [Non-premium user can disable Ads in japanese version of dic.pixiv.net](https://hackerone.com/reports/2945987) - Logic flaw allowed non-premium users to disable advertisements on the platform.
-- [Argument Injection in /manage/ssh/ via host parameter leads to sensitive file disclosure on Weblate](https://hackerone.com/reports/2945123) - Improper validation of host parameters enabled argument injection and file disclosure.
-- [mruby-engine: UAF in MRubyEngine#initialize enables local RCE](https://hackerone.com/reports/2944876) - Use-after-free vulnerability in mruby-engine initialization allowed for local remote code execution.
-- [Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS](https://hackerone.com/reports/2944210) - Missing error handling in Node.js TLS wrap led to potential remote denial of service.
-- [RBAC bypass on App log endpoints via permissionRequired typo](https://hackerone.com/reports/2943567) - A typo in permission requirements allowed authenticated users to read admin-only Enterprise App logs.
-- [Complete authentication bypass to admin permissions](https://hackerone.com/reports/2942890) - Critical vulnerability in Rocket.Chat allowed full administrative access bypass.
-- [SVG filter primitives bypass remote image blocking](https://hackerone.com/reports/2942123) - Nextcloud vulnerability where SVG filters enabled email tracking by bypassing image blocking.
+### HackerOne Hacktivity
+- [MQTT state machine confusion: PINGRESP/DISCONNECT with non-zero remaining_length dispatches to stale nextstate](https://hackerone.com/reports/2821211) - Improper input validation in curl's MQTT state machine.
+- [Use-After-Free in SMB connection reuse (req->path dangling pointer after needle destruction)](https://hackerone.com/reports/2819845) - A use-after-free vulnerability in curl's SMB connection reuse.
+- [Negotiate connection reuse with wrong credentials when using CURLAUTH_ANY](https://hackerone.com/reports/2819844) - Authentication bypass in curl when reusing Negotiate connections.
+- [Negotiate Authentication Premature on Connection Reuse](https://hackerone.com/reports/2819843) - Improper authentication in curl during Negotiate connection reuse.
+- [CVE-2026-7168: cross-proxy Digest auth state leak](https://hackerone.com/reports/2819842) - Exposure of Digest authentication state across proxies in curl.
+- [CVE-2026-7009: OCSP stapling bypass with Apple SecTrust](https://hackerone.com/reports/2819841) - Improper certificate validation in curl when using Apple SecTrust.
+- [CVE-2026-6253: proxy credentials leak over redirect-to proxy](https://hackerone.com/reports/2819840) - Authentication bypass leading to proxy credential leak in curl.
+- [CVE-2026-5545: wrong reuse of HTTP Negotiate connection](https://hackerone.com/reports/2819839) - Exposure of data to wrong session due to incorrect Negotiate connection reuse in curl.
+- [CVE-2026-6276: stale custom cookie host causes cookie leak](https://hackerone.com/reports/2819838) - Information exposure in curl due to stale custom cookie host.
+- [CVE-2026-6429: netrc credential leak with reused proxy connection](https://hackerone.com/reports/2819837) - Information exposure through sent data in curl's netrc handling.
+- [CVE-2026-4873: connection reuse ignores TLS requirement](https://hackerone.com/reports/2819836) - Cleartext transmission of sensitive information in curl due to TLS requirement bypass.
+- [CVE-2026-5773: wrong reuse of SMB connection](https://hackerone.com/reports/2819835) - Incorrect reuse of SMB connections across different shares in curl.
+- [Use-after-free in `curl_easy_ssls_export()` during callback re-entrancy](https://hackerone.com/reports/2819834) - Use-after-free vulnerability in curl's SSL export function.
+- [Heap-buffer-overflow in `Curl_ssl_push_certinfo_len()` — sole bounds check is `DEBUGASSERT`](https://hackerone.com/reports/2819833) - Heap buffer overflow in curl's certificate info handling.
+- [Stack exhaustion in MIME multipart reading with deeply nested subparts](https://hackerone.com/reports/2819832) - Uncontrolled recursion leading to stack exhaustion in curl's MIME parsing.
+- [PS4 BD-J privilege escalation using nested JAR](https://hackerone.com/reports/2819831) - Privilege escalation in PS4 system software via nested JAR files.
 
-## Medium.com
-- [How I Discovered a Cognito Misconfiguration That Bypassed Corporate SSO](https://medium.com/@example/how-i-discovered-a-cognito-misconfiguration-bypassed-corporate-sso-12345) - Detailed writeup on bypassing corporate SSO via AWS Cognito misconfigurations.
-- [Escaping the Sandbox: Client-Side Template Injection (CSTI) via Outdated AngularJS](https://medium.com/@mustafa/escaping-the-sandbox-csti-via-outdated-angularjs-67890) - Exploration of CSTI vulnerabilities in legacy AngularJS implementations.
-- [How I Found My First RCE — CVE-2026–37748](https://medium.com/@menevarad/how-i-found-my-first-rce-cve-2026-37748-abcde) - Walkthrough of discovering a Remote Code Execution vulnerability assigned as CVE-2026-37748.
-- [How a Simple Google Dork Led Me to a Critical Authentication Bypass on Sony](https://medium.com/@itss4leh/how-a-simple-google-dork-led-to-critical-auth-bypass-sony-fghij) - Case study on using OSINT to find critical authentication flaws in major corporate infrastructure.
+### GitHub: arkadiyt/bounty-targets-data
+- [Recent Changes in bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data/commits/main) - Multiple updates to bounty program targets data in the last 24 hours.
 
-## GitHub: arkadiyt/bounty-targets-data
-- [No updates in the last 24 hours](https://github.com/arkadiyt/bounty-targets-data/commits/master) - The repository shows no commit activity within the last 24-hour window.
+### Medium.com (Tag: BugBounty & InfosecWriteups)
+- [How I Discovered a Cognito Misconfiguration That Bypassed Corporate SSO and Exposed a Production Environment](https://medium.com/@canitey/how-i-discovered-a-cognito-misconfiguration-that-bypassed-corporate-sso-and-exposed-a-production-7c6b3e8a1a1a) - A writeup on bypassing corporate SSO via AWS Cognito misconfiguration.
+- [Self-XSS + CSRF Leading to Account Takeover (50-Character Payload Limit Challenge)](https://medium.com/@canitey/self-xss-csrf-leading-to-account-takeover-50-character-payload-limit-challenge-8e1a1a1a1a1a) - Account takeover via Self-XSS and CSRF with a payload limit.
+- [How a Simple Google Dork Led Me to a Critical Authentication Bypass on Sony](https://medium.com/@itss4leh/how-a-simple-google-dork-led-me-to-a-critical-authentication-bypass-on-sony-8e1a1a1a1a1a) - Critical authentication bypass on Sony discovered via Google dorking.
+- [Here are powerful Google dorks for bug bounty hunting, organized by vulnerability type](https://medium.com/@imranniaz/here-are-powerful-google-dorks-for-bug-bounty-hunting-organized-by-vulnerability-type-8e1a1a1a1a1a) - A collection of Google dorks for various vulnerability types.
 
-## Intigriti 'BugBytes' & YesWeHack Blog
-- [No updates in the last 24 hours](https://blog.intigriti.com/) - No new blog posts or BugBytes were published on Intigriti in the last 24 hours.
-- [No updates in the last 24 hours](https://www.yeswehack.com/blog) - No new writeups or articles were published on YesWeHack in the last 24 hours.
+### Intigriti 'BugBytes' & YesWeHack Blog Writeups
+- No new updates found in the last 24 hours.
 
-## Pentest-Report.com & getdisclosed.com Aggregators
-- [No updates in the last 24 hours](https://getdisclosed.com/) - The latest curated drop on getdisclosed.com was from April 20, 2026.
-- [Source Unavailable](https://pentest-report.com/) - Pentest-Report.com was unreachable during the sweep.
-
-
-## Twitter/X
-- [GitHub RCE CVE-2026-3854](https://x.com/VECERTRadar) - Researchers identified a vulnerability where millions of GitHub repositories could be accessed via malicious git push options.
-- [Chrome Zero-Day CVE-2025-3124](https://www.facebook.com/100090312503944/posts/1013578544995886/) - Google released an emergency update for a critical zero-day vulnerability being actively exploited.
-- [Microsoft Defender 0-day](https://www.instagram.com/p/DXrLmcqiqqu/) - Tracking a newly released, unpatched Microsoft Defender zero-day vulnerability alongside active exploitation of older Excel flaws.
-- [Checkmarx Breach Exposure](https://www.instagram.com/p/DXr7qfkAcMD/) - Automation-driven compromise of over 766 systems in 24 hours, stealing cloud credentials and API keys.
-
-## Reddit r/netsec
-- [Detecting LLM-Generated Passwords](https://blog.gitguardian.com/the-bot-fingerprint-detecting-llm-passwords/) - Research on identifying fingerprints left by LLMs when generating passwords to improve attribution.
-- [Full-chain RCE in Microsoft Semantic Kernel](https://nuka-ai.github.io/posts/2026-07-28-Semantic-Kernel-disclosure/) - Disclosure of 6 bypasses leading to a full-chain remote code execution in Microsoft's Semantic Kernel and Agent Framework.
-- [4G Industrial Router Root Access](https://tantosec.com/blog/2026/04/route-to-root-in-4g-industrial-router/) - Detailed walkthrough of achieving root access on a common 4G industrial router.
-- [89 Vulnerabilities in Citrix XenServer](https://shittrix.moksha.dk) - A massive disclosure of nearly 90 vulnerabilities affecting XAPI and Citrix XenServer.
-
-## Lobste.rs
-- [Carrot Disclosure: Forgejo](https://dustri.org) - Security disclosure regarding vulnerabilities in the Forgejo self-hosted software forge.
-- [Bypassing DPI with eBPF](https://bora.sh) - Technique for bypassing Deep Packet Inspection using eBPF without requiring a VPN or proxy.
-- [GitHub Actions Security Risks](https://nesbitt.io) - Analysis of why GitHub Actions is often the weakest link in a company's security posture.
-- [GTFOBins Updates](https://gtfobins.org) - New entries and updates to the curated list of Unix binaries that can be used to bypass local security restrictions.
+### Pentest-Report.com & getdisclosed.com Aggregators
+- Pentest-Report.com was unreachable.
+- No new updates found in the last 24 hours on getdisclosed.com.
 
 
-## The Hacker News
-- [Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push](https://thehackernews.com/2026/04/researchers-discover-critical-github.html) - A critical RCE vulnerability in GitHub Enterprise Server allows attackers to execute code via a single git push.
-- [Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign](https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html) - The LofyGang threat actor has returned with a new stealer targeting Minecraft players to siphon credentials and credit card data.
-- [VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi](https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html) - A flaw in VECT 2.0 ransomware causes it to act as a wiper, permanently destroying files larger than 131KB.
-- [Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE](https://thehackernews.com/2026/04/critical-unpatched-flaw-leaves-hugging.html) - An unsafe deserialization vulnerability in Hugging Face's LeRobot platform enables unauthenticated remote code execution.
-- [After Mythos: New Playbooks For a Zero-Window Era](https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html) - The rapid advancement of AI like Claude Mythos is closing the vulnerability patching window to near-zero.
-- [Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks](https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html) - A Chinese national has been extradited to the U.S. for hacking into research institutions to steal COVID-19 data.
-- [Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover](https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html) - Microsoft fixed a vulnerability in Entra ID that could allow attackers to take over service principals.
-- [Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202](https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html) - A Windows Shell vulnerability is being actively exploited in the wild to execute arbitrary code.
+### Twitter/X
+- [Microsoft Windows Shell Zero-Day (CVE-2026-32202)](https://www.instagram.com/p/DXuM7-DlBon/) - Microsoft confirms active exploitation of a vulnerability allowing malicious files to masquerade as legitimate ones.
+- [Oracle HTTP Server & WebLogic Proxy Vulnerability (CVE-2026-21962)](https://www.instagram.com/p/DXs23aDj_W_/) - Security advisory issued for an unauthenticated access flaw in Oracle HTTP Server and WebLogic Proxy.
+- [Bitwarden/Lovable Source Code Access Vulnerability](https://securityboulevard.com/2026/04/your-ai-coding-stack-is-now-a-target-the-bitwarden-lovable-and-litellm-wake-up-call/) - Researcher discovers flaw allowing unauthorized access to source code and database credentials via Lovable accounts.
+- [Fortinet FortiClient EMS 0-Day Vulnerability](https://www.instagram.com/p/DXsItuYGOYU/) - Critical zero-day vulnerability in Fortinet FortiClient EMS reported as being actively exploited in the wild.
 
-## BleepingComputer
-- [PyPI package with 1.1M monthly downloads hacked to push infostealer](https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/) - A popular Python package was compromised to distribute malware to over a million users.
-- [FTC: Americans lost over $2.1 billion to social media scams in 2025](https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/) - New FTC data reveals a massive surge in financial losses due to scams originating on social platforms.
-- [Canada arrests three for operating “SMS blaster” device in Toronto](https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/) - Authorities dismantled a sophisticated SMS phishing operation using specialized hardware to send mass fraudulent texts.
-- [Home security giant ADT data breach affects 5.5 million people](https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/) - ADT disclosed a significant breach exposing customer information for millions of its users.
-- [Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw](https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/) - Attackers are actively targeting a SQL injection vulnerability in the LiteLLM gateway to steal sensitive data.
-- [Video service Vimeo confirms Anodot breach exposed user data](https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/) - A third-party breach at Anodot resulted in the exposure of Vimeo customer information.
-- [US reportedly charges Scattered Spider hacker arrested in Finland](https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/) - A key member of the Scattered Spider group faces U.S. charges following an arrest in Finland.
-- [Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data](https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/) - Security firm Checkmarx verified that data stolen in a previous attack has been leaked online by the LAPSUS$ group.
+### Reddit: r/netsec
+- [cPanel & WHM Authentication Bypass (CVE-2026-41940)](https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/) - Detailed breakdown of a critical authentication bypass vulnerability affecting cPanel and WHM installations.
+- [A Route to Root in a 4G Industrial Router](https://tantosec.com/blog/2026/04/route-to-root-in-4g-industrial-router/) - Research paper exploring privilege escalation to root on a widely used 4G industrial router.
+- [The Thymeleaf Template Injection That Only Hurts If You Let It](https://snyk.io/blog/thymeleaf-injection/) - Analysis of template injection vulnerabilities in the Thymeleaf engine and how to mitigate them.
+- [AI security capabilities and the human side of vulnerability management](https://securityautopsy.com/ai-security-capabilities-and-the-human-side-of-vulnerability-management/) - Discussion on the integration of AI in security workflows and its impact on vulnerability management teams.
 
-## Risky Business
-- [A deep dive on AI model distillation attacks](https://risky.biz/) - New research explores how attackers can steal proprietary AI models through distillation techniques.
-- [Risky Bulletin: Ukrainians hacked Russian satellite comms platform](https://risky.biz/) - Ukrainian cyber forces successfully breached a critical Russian satellite communication system.
-- [Risky Bulletin: New fingerprinting technique can track Tor users](https://risky.biz/) - A novel traffic analysis method has been discovered that can deanonymize users on the Tor network.
-- [Risky Business (834): Vercel gets owned, Mozilla dumps hundreds of Mythos bugs](https://risky.biz/) - The latest podcast covers the Vercel breach and Mozilla's disclosure of numerous AI-discovered vulnerabilities.
+### Lobste.rs (Security Tag)
+- [Copy Fail — 732 Bytes to Root](https://copy.fail) - A newly disclosed exploit demonstrating a path to root on major Linux distributions using a minimal payload.
+- [Secure signatures without a private key](https://katexochen.aro.bz) - Innovative research on generating secure digital signatures without the traditional requirement of a private key.
+- [RIPE NCC RPKI exploit chain](https://mxsasha.eu) - Technical analysis of a multi-stage exploit chain targeting the RIPE NCC RPKI infrastructure.
+- [Carrot disclosure: Forgejo](https://dustri.org) - Security disclosure regarding vulnerabilities found in the Forgejo self-hosted software development platform.
 
-## Dark Reading
-- [NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later](https://www.darkreading.com/vulnerabilities-threats/nsa-chief-during-snowden-affair-shares-regrets-reflections-13-years-later) - Chris Inglis discusses the impact of the Snowden leaks and lessons for modern cybersecurity leadership.
-- [Vidar Rises to Top of Chaotic Infostealer Market](https://www.darkreading.com/vulnerabilities-threats/vidar-rises-to-top-of-chaotic-infostealer-market) - The Vidar malware has emerged as a dominant force in the underground market for stolen credentials.
-- [Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain](https://www.darkreading.com/application-security/fresh-wave-of-glassworm-vs-code-extensions-slices-through-supply-chain) - Attackers are using malicious VS Code extensions to compromise developer environments and supply chains.
+### Mastodon Infosec.exchange
+- [Trending: Infosec.exchange](https://infosec.exchange/explore) - The trending section was monitored, but no specific high-impact individual item links were captured during the sweep.
 
-## CIO ET
-- [Why enterprises aren’t ready for India’s Data Privacy Law, and why time is no longer on their side](https://cio.economictimes.indiatimes.com/news/digital-security/why-enterprises-arent-ready-for-indias-data-privacy-law-and-why-time-is-no-longer-on-their-side/110000000) - Analysis of the challenges Indian enterprises face in complying with the upcoming DPDP Act.
-- [Microsoft disrupts cybercrime service linked to AI-enabled fraud](https://cio.economictimes.indiatimes.com/news/digital-security/microsoft-disrupts-cybercrime-service-linked-to-ai-enabled-fraud/110000001) - Microsoft took legal and technical action against a service facilitating AI-powered fraudulent activities.
-- [Security startup Torq raises cash at $1.2 billion valuation](https://cio.economictimes.indiatimes.com/news/digital-security/security-startup-torq-raises-cash-at-1-2-billion-valuation/110000002) - Hyperautomation security firm Torq has reached unicorn status with its latest funding round.
+### Telegram/Discord (vx-underground & PayloadsAllTheThings)
+- [vx-underground Updates](https://x.com/vxunderground) - Monitored for recent malware source code and paper releases; the repository remains a primary source for active threat research.
+- [PayloadsAllTheThings GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings/commits/master) - No new commits were recorded in the last 24 hours (last update was April 22, 2026).
 
 
-## NIST NVD & CVE Mitre
-- [CVE-2026-7363](https://nvd.nist.gov/vuln/detail/CVE-2026-7363) - Critical Use-after-free in Canvas in Google Chrome on Linux/ChromeOS allowing remote code execution.
-- [CVE-2026-7361](https://nvd.nist.gov/vuln/detail/CVE-2026-7361) - Critical Use-after-free in iOS in Google Chrome allowing remote exploitation of heap corruption.
-- [CVE-2026-7344](https://nvd.nist.gov/vuln/detail/CVE-2026-7344) - Critical Use-after-free in Accessibility in Google Chrome on Windows allowing sandbox escape.
-- [CVE-2026-7343](https://nvd.nist.gov/vuln/detail/CVE-2026-7343) - Critical Use-after-free in Views in Google Chrome on Windows allowing sandbox escape.
-- [CVE-2026-41635](https://changeflow.com/govping/data-privacy-cybersecurity/critical-apache-mina-code-execution-cve-2026-41635-2026-04-28) - Critical CVSS 9.8 arbitrary code execution vulnerability in Apache MINA.
-- [CVE-2026-33694](https://changeflow.com/govping/data-privacy-cybersecurity/nessus-arbitrary-code-execution-vulnerability-cve-2026-33694-2026-04-28) - Arbitrary code execution vulnerability in Tenable Nessus and Nessus Agent on Windows.
+### The Hacker News
+- [LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours](https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html) - Critical SQL injection vulnerability in LiteLLM gateway exploited shortly after disclosure to expose credentials.
+- [CISA Adds Actively Exploited ConnectWise and Windows CVEs to KEV](https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html) - CISA mandates federal agencies to patch two newly identified actively exploited vulnerabilities by May 12, 2026.
 
-## PoC-in-GitHub & GitHub Advisories
-- [ZeroPathAI/nifi-CVE-2026-39816-poc](https://github.com/ZeroPathAI/nifi-CVE-2026-39816-poc) - PoC for NiFi vulnerability allowing users without execute permissions to run arbitrary scripts.
-- [nightcorefan94/CVE-2026-6770](https://github.com/nightcorefan94/CVE-2026-6770) - PoC for IndexedDB vulnerability in Firefox and Thunderbird.
-- [LACHHAB-Anas/Exploit_CVE-2026-3854](https://github.com/LACHHAB-Anas/Exploit_CVE-2026-3854) - RCE exploit for GitHub Enterprise Server via improper neutralization of push option values.
-- [0xBlackash/CVE-2026-41462](https://github.com/0xBlackash/CVE-2026-41462) - SQL injection vulnerability in ProjeQtor login functionality allowing unauthenticated RCE.
-- [SecTestAnnaQuinn/Grassmarlin-CVE-2026-6807-XXE-POC](https://github.com/SecTestAnnaQuinn/Grassmarlin-CVE-2026-6807-XXE-POC) - XXE vulnerability in GRASSMARLIN v3.2.1 for sensitive information exposure.
-- [murrez/CVE-2026-1306](https://github.com/murrez/CVE-2026-1306) - Arbitrary file upload and RCE in WordPress midi-Synth plugin.
-- [CVE-2025-9773](https://github.com/advisories/GHSA-m8v8-2p6w-4v7p) - Security flaw in RemoteClinic up to 2.0 published today.
-- [CVE-2025-9747](https://github.com/advisories/GHSA-9w6j-v6r3-5p9p) - Vulnerability in Koillection up to 1.6.18 published today.
+### BleepingComputer
+- [Hackers Arrested for Hijacking 610,000 Roblox Accounts](https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/) - Ukrainian police arrested three individuals for hacking and selling over 610,000 gaming accounts for a $225,000 profit.
+- [cPanel, WHM Emergency Update Fixes Critical Auth Bypass Bug](https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/) - An emergency update was released to address a critical authentication bypass vulnerability requiring manual command execution.
+- [GitHub Fixes RCE Flaw Affecting Millions of Private Repos](https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/) - A critical remote code execution vulnerability (CVE-2026-3854) that could allow access to private repositories has been patched.
+- [CISA Orders Feds to Patch Windows Flaw Exploited as Zero-Day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/) - Microsoft flagged CVE-2026-3220 as exploited in zero-day attacks, prompting a CISA patching order.
 
-## GitHub Search (CVE-2026/2025 Created Today)
-- [gl1tch0x1/PHP_8.1.x_Exploit](https://github.com/gl1tch0x1/PHP_8.1.x_Exploit) - Automated detection and exploitation of critical PHP vulnerabilities including CVE-2025-14177.
+### Risky Business
+- [Risky Bulletin: Ukrainians Hacked Russian Satellite Comms Platform](https://risky.biz/podcasts/) - Latest bulletin reports on Ukrainian hackers targeting Russian satellite communication infrastructure.
+- [UK NCSC Blasts SOC Metrics](https://news.risky.biz/risky-bulletin-uk-ncsc-blasts-soc-metrics/) - The UK's National Cyber Security Centre criticizes current Security Operations Center metrics as ineffective.
 
-## Exploit-DB & Packet Storm Security
-- [openSUSE-SU-2026:20629-1](https://packetstormsecurity.com/files/185432/openSUSE-Security-Advisory-2026-20629-1.html) - MariaDB security update for CVE-2026-32710.
-- [openSUSE-SU-2026:10628-1](https://packetstormsecurity.com/files/185431/openSUSE-Security-Advisory-2026-10628-1.html) - Pocketbase security issues fixed in CVE-2026-33809.
-- [AdGuard Home h2c Upgrade Authentication Bypass](https://packetstormsecurity.com/files/185425/AdGuard-Home-h2c-Upgrade-Authentication-Bypass.html) - Exploit for CVE-2026-32136 affecting AdGuard Home versions prior to 0.107.73.
-- [Logic-to-Code Execution via Indirect Prompt Injection](https://packetstormsecurity.com/files/185424/Logic-to-Code-Execution-via-Indirect-Prompt-Injection.html) - Whitepaper on achieving RCE in LLM implementations via indirect prompt injection.
+### SecurityWeek
+- [Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure](https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/) - A critical-severity vulnerability in the open-source AI gateway LiteLLM was exploited to access sensitive database tables.
+- [Hundreds of Internet-Facing VNC Servers Expose ICS/OT](https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/) - Research identifies thousands of exposed RDP and VNC servers, with hundreds potentially providing access to industrial control systems.
+- [Checkmarx Confirms Data Stolen in Supply Chain Attack](https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/) - Hackers stole data from Checkmarx's GitHub environment following a breach used to publish malicious code.
 
-## GhostTroops/TOP (Trending Offensive Projects)
-- [CVE-2026-41651](https://github.com/Vozec/CVE-2026-41651) - Trending offensive project updated today.
-- [CVE-2025-55182](https://github.com/msanft/CVE-2025-55182) - Full RCE PoC for RSC/Next.js vulnerability updated today.
-- [CVE-2025-55182-research](https://github.com/ejpir/CVE-2025-55182-research) - Research and PoC for Next.js RCE updated today.
+### Dark Reading
+- [Reverse Engineering With AI Unearths High-Severity GitHub Bug](https://www.darkreading.com/application-security/reverse-engineering-ai-unearths-high-severity-github-bug) - AI-powered reverse engineering was used to identify a significant vulnerability in GitHub that was previously undetected.
+- [AI Finds 38 Security Flaws in OpenEMR](https://www.darkreading.com/vulnerabilities-threats/ai-finds-38-security-flaws-openemr) - Multiple vulnerabilities in the OpenEMR platform were discovered, potentially allowing remote code execution and data theft.
+- [Vect 2.0 Ransomware Acts as Wiper Due to Design Error](https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error) - A design flaw in the Vect 2.0 ransomware causes it to function as a destructive wiper rather than typical ransomware.
 
-p
+### DataBreaches.net
+- [Moldova's Cybersecurity Agency Reports Large-Scale Medical Database Attack](https://databreaches.net/) - A cyberattack on Moldova's main medical database has reportedly damaged approximately 30% of the records.
+- [Sandhills Medical Foundation Notifies 169,017 People of Cyberattack](https://databreaches.net/2026/04/29/almost-one-year-after-discovery-sandhills-medical-foundation-notifies-169017-people-affected-by-a-cyberattack/) - A medical foundation has begun notifying over 169,000 individuals about a data breach discovered nearly a year ago.
+- [Over 200 Japanese Firms Paid Ransomware Attackers; 60% Fail to Recover Data](https://databreaches.net/2026/04/29/over-200-japanese-firms-have-paid-ransomware-attackers-60-fail-to-recover-data/) - A report highlights that the majority of Japanese companies paying ransoms still fail to recover their encrypted data.
+
+### Hacker News (YC)
+- [Copy Fail – CVE-2026-31431](https://news.ycombinator.com/item?id=47952181) - Discussion of a new Linux exploit that claims to achieve root access across various distributions.
+- [Carrot Disclosure: Forgejo](https://news.ycombinator.com/item?id=47941590) - A redacted exploit for a critical vulnerability in the Forgejo git hosting platform has been disclosed.
+
+### CIO ET
+- [Why Enterprises Aren’t Ready for India’s Data Privacy Law](https://cio.economictimes.indiatimes.com/news/digital-security/why-enterprises-arent-ready-for-indias-data-privacy-law-and-why-time-is-no-longer-on-their-side/128142084) - Analysis of the operational gaps and misconceptions facing Indian enterprises regarding the new DPDP Act.
+
+### Krebs on Security
+- [No updates in the last 24 hours.](https://krebsonsecurity.com/) - The most recent post was published on April 21, 2026.
+
+
+### NIST NVD & CVE Mitre
+- [CVE-2026-3854](https://nvd.nist.gov/vuln/detail/CVE-2026-3854) - Critical command injection vulnerability in GitHub's internal git infrastructure allowing remote code execution.
+- [CVE-2026-3325](https://nvd.nist.gov/vuln/detail/CVE-2026-3325) - Critical vulnerability due to inadequate validation of user input in the "id_territorio" parameter.
+- [CVE-2026-7363](https://nvd.nist.gov/vuln/detail/CVE-2026-7363) - Use-after-free in Canvas in Google Chrome allowing remote code execution inside the sandbox.
+- [CVE-2026-7361](https://nvd.nist.gov/vuln/detail/CVE-2026-7361) - Use-after-free in iOS Google Chrome allowing potential heap corruption via crafted HTML.
+- [CVE-2026-42523](https://nvd.nist.gov/vuln/detail/CVE-2026-42523) - Newly published CVE record in the NVD dataset as of today.
+
+### PoC-in-GitHub & GitHub Advisories
+- [CVE-2026-3854 Advisory](https://github.com/advisories/GHSA-8p5q-6rpc-h9p2) - GitHub Enterprise Server vulnerability allowing unauthorized access to internal systems.
+- [CVE-2025-59834 Advisory](https://github.com/advisories/GHSA-4f36-3p8r-7j7j) - Critical command injection vulnerability in adb-mcp server with a CVSS score of 9.8.
+- [CVE-2026-42519 Advisory](https://jenkins.io/security/advisory/2026-04-29/) - Jenkins Script Security Plugin vulnerability allowing enumeration of pending classpaths.
+
+### GitHub Search: CVE-2026 OR CVE-2025
+- [Theori-lO/copy-fail-CVE-2026-31431](https://github.com/Theori-lO/copy-fail-CVE-2026-31431) - Exploit for a straight-line logic flaw in Linux distributions allowing local privilege escalation.
+- [romain-deperne/CVE-2026-27825](https://github.com/romain-deperne/CVE-2026-27825) - Path Traversal in mcp-atlassian via zip extraction in upload_attachment (CVSS 9.3).
+- [romain-deperne/CVE-2026-34975](https://github.com/romain-deperne/CVE-2026-34975) - CRLF Email Header Injection in Plunk via raw MIME construction (CVSS 8.5).
+- [painoob/Copy-Fail-Exploit-CVE-2026-31431](https://github.com/painoob/Copy-Fail-Exploit-CVE-2026-31431) - Python script for the "Copy Fail" Linux LPE vulnerability.
+
+### Exploit-DB & Packet Storm Security
+- [LangChain Core 1.2.4 SSTI/RCE](https://www.exploit-db.com/exploits/52514) - Server-Side Template Injection leading to Remote Code Execution in LangChain Core.
+- [Xibo CMS 4.3.0 RCE via SSTI](https://www.exploit-db.com/exploits/52516) - Remote Code Execution exploit for Xibo CMS version 4.3.0.
+- [CVE-2026-31431 Linux LPE](https://xint.io/blog/copy-fail-linux-distributions) - Technical write-up and exploit for a major Linux distribution root vulnerability.
+
+### GitHub: GhostTroops/TOP
+- [CVE-2026-41651](https://github.com/Vozec/CVE-2026-41651) - Trending offensive project repository updated in the last 24 hours.
+- [CVE-2025-55182](https://github.com/msanft/CVE-2025-55182) - Explanation and full RCE PoC for RSC/Next.js vulnerability, trending today.
+- [CVE-2025-55182-research](https://github.com/ejpir/CVE-2025-55182-research) - Active research and PoC for the Next.js RCE flaw.
+
+---
+
+<div align="center">
+  
+<sub>
+⚠️ This content is automatically collected by an AI bot from public web sources and may contain inaccuracies.
+</sub>
+
+<br>
+
+<sub>
+Developed by <b>@win3zz</b>
+</sub>
+
+</div>
