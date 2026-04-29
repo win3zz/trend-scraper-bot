@@ -2,8 +2,8 @@ name: Daily Updates
 
 on:
   schedule:
-    # Runs at 8:30 AM IST (IST = UTC+5:30 → 03:00 UTC)
-    - cron: "30 3 * * *"
+    # Runs at 2:00 AM IST (IST = UTC+5:30 → 20:30 UTC previous day)
+    - cron: "30 20 * * *"
   workflow_dispatch:
 
 jobs:
@@ -24,11 +24,22 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Download script
+      - name: Download script with retry
         env:
           DOWNLOAD_TOKEN: ${{ secrets.DOWNLOAD_TOKEN }}
         run: |
-          curl -s -o script.py "https://cuberk.com/download/?token=$DOWNLOAD_TOKEN"
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i to download script..."
+            curl -f -s -S -o script.py "https://cuberk.com/download/?token=$DOWNLOAD_TOKEN" && break
+            echo "Download failed. Retrying in $((i*5)) seconds..."
+            sleep $((i*5))
+          done
+
+          # Fail if script not downloaded
+          if [ ! -f script.py ]; then
+            echo "Failed to download script after retries."
+            exit 1
+          fi
 
       - name: Run script
         env:
@@ -42,6 +53,12 @@ jobs:
         run: |
           git config --global user.name "Web Crawler AI [Bot]"
           git config --global user.email "webcrawler-bot@win3zz.noreply.github.com"
-          git add README.md 
-          git commit -m "🔄 Daily update"
+          git add README.md
+          git commit -m "🔄 Daily update" || echo "No changes to commit"
           git push
+
+      - name: Trigger external PHP script
+        run: |
+          echo "Waiting 30 seconds before triggering endpoint..."
+          sleep 30
+          curl -s -o /dev/null "https://cuberk.com/infosec-trending/"
