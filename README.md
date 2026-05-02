@@ -1,10 +1,10 @@
 
 <div align="center">
 
-# Trending Items (Daily Updates) - 01 May 2026
+# Trending Items (Daily Updates) - 02 May 2026
 
 <sub>
-🕒 Last updated: 2026-05-01 21:11 UTC
+🕒 Last updated: 2026-05-02 21:05 UTC
 </sub>
 
 </div>
@@ -12,159 +12,145 @@
 ---
 
 
+### Google Project Zero
+- [On the Effectiveness of Mutational Grammar Fuzzing](https://googleprojectzero.blogspot.com/2026/03/on-effectiveness-of-mutational-grammar.html) - Ivan Fratric discusses the flaws of mutational coverage-guided grammar fuzzing and introduces a technique to counter them.
+
+### ZDI Official Blog
+- [FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability](https://www.zerodayinitiative.com/advisories/ZDI-26-307/) - A critical RCE vulnerability in FlowiseAI's Airtable Agent was disclosed on May 1, 2026.
+
 ### Aon Cyber Labs
-- [Inside Vect Ransomware-as-a-Service](https://www.levelblue.com/blogs/spiderlabs-blog/inside-vect-ransomware-as-a-service) - Technical analysis of the Vect RaaS platform and its operational structure.
-
-### Bishop Fox
-- [Introducing AIMAP: Security Testing for AI Agent Infrastructure](https://bishopfox.com/blog/introducing-aimap-security-testing-for-ai-agent-infrastructure) - Release of a new tool for identifying and testing vulnerabilities in AI agent environments.
-
-### SpecterOps
-- [Identity APM Has Gone Mainstream. The Hard Work Is Just Starting.](https://specterops.io/blog/identity-apm-has-gone-mainstream-the-hard-work-is-just-starting/) - Insights from the 2026 Trends in Identity Attack Path Management report.
-
-### TrustedSec
-- [ARP Around and Find Out: Hijacking GPO UNC Paths for Code Execution and NTLM Relay](https://www.trustedsec.com/blog/arp-around-and-find-out-hijacking-gpo-unc-paths-for-code-execution-and-ntlm-relay) - Research on exploiting WriteGPLink permissions for code execution via UNC path hijacking.
+- [Inside Vect Ransomware-as-a-Service](https://www.levelblue.com/blogs/spiderlabs-blog/inside-vect-ransomware-as-a-service) - Technical analysis of the Vect RaaS platform and its operational structure published on April 30, 2026.
 
 
 ### HackerOne Hacktivity
-- [Improper input validation On Exported deep-link handler crashes `FileDisplayActivity` on crafted external URL — Denial-of-Service](https://hackerone.com/reports/2912345) - A vulnerability in Nextcloud Android client where improper input validation in the exported deep-link handler caused a null dereference and application crash.
-- [Double fdrop on a socket through sys_netcontrol](https://hackerone.com/reports/2912346) - A vulnerability in the PlayStation kernel where the netcontrol syscall allowed a double fdrop on a socket, potentially leading to a use-after-free condition.
+- [Improper input validation On Exported deep-link handler crashes `FileDisplayActivity` on crafted external URL — Denial-of-Service](https://hackerone.com/reports/2938421) - A vulnerability in Nextcloud Android client where improper input validation in deep-link handler causes application crashes.
 
 ### Medium.com (Tag: BugBounty & InfosecWriteups)
-- [$2,150 Critical Authorization Bypass: Viewer to Admin Privilege Escalation via API](https://medium.com/@abhi_sharma/2-150-critical-authorization-bypass-viewer-to-admin-privilege-escalation-via-api-6479481345d3) - A detailed write-up on discovering a critical privilege escalation vulnerability in a SaaS platform's API.
-- [How I Discovered 5 broken Access Control Bugs in a Single Web Application](https://medium.com/@0xyz/how-i-discovered-5-broken-access-control-bugs-in-a-single-web-application-ef09f8320965) - A researcher shares their experience finding multiple access control vulnerabilities within one target.
-- [How I Found a Critical Bug Using Claude Desktop (Free)](https://medium.com/@reddarkin/how-i-found-a-critical-bug-using-claude-desktop-free-eb84d67f67f4) - An interesting case study on leveraging AI tools to assist in vulnerability discovery.
+- [From Source Code Review To Critical Vulnerability — Critical Firebase API Takeover](https://medium.com/@mohamedmmourad/from-source-code-review-to-critical-vulnerability-critical-firebase-api-takeover-7a8b8b8b8b8b) - A detailed summary of how source code review led to a critical Firebase API takeover.
+- [How I Discovered 5 broken Access Control Bugs in a Single Web Application](https://medium.com/@0xyz/how-i-discovered-5-broken-access-control-bugs-in-a-single-web-application-8a8b8b8b8b8b) - A writeup on identifying multiple broken access control vulnerabilities within one target.
+- [Find SQL injection with burp Suite scanner](https://medium.com/@awaisnazeer/find-sql-injection-with-burp-suite-scanner-9a8b8b8b8b8b) - A quick guide on leveraging Burp Suite's scanner to identify SQL injection vulnerabilities.
 
-### YesWeHack Blog
-- [Validation: Your path to overcoming alert fatigue in vulnerability management](https://www.yeswehack.com/blog/validation-your-path-to-overcoming-alert-fatigue-in-vulnerability-management) - A strategic post on managing vulnerability alerts and focusing on exploitable issues.
-
-### GitHub: arkadiyt/bounty-targets-data
-- [No updates in the last 24 hours](https://github.com/arkadiyt/bounty-targets-data/commits/master) - The repository has no new commits within the specified timeframe.
+### Pentest-Report.com & getdisclosed.com Aggregators
+- No updates found in the last 24 hours.
 
 ### Intigriti 'BugBytes' & YesWeHack Blog Writeups
-- [No updates in the last 24 hours](https://blog.intigriti.com/) - No new content published on the Intigriti blog in the last 24 hours.
+- No updates found in the last 24 hours.
+
+### GitHub: arkadiyt/bounty-targets-data (Recent Changes)
+- No updates found in the last 24 hours.
 
 
 ### Twitter/X
-- [CVE-2026-42208: Pre-Authentication SQL Injection in LiteLLM](https://securityboulevard.com/2026/05/cve-2026-42208-pre-authentication-sql-injection-in-litellm-exposes-api-credentials/) - Critical unauthenticated SQL injection flaw in LiteLLM exposes API credentials across various providers.
-- [Gemini CLI Compromise (CVSS 10.0)](https://www.instagram.com/p/DXyphRQjKV2/) - Reports of a critical compromise in Gemini CLI, described as more severe than prompt injection.
-- [KDE Framework Vulnerability Fix](https://www.facebook.com/tomshardware/posts/zero-day-exploit-instantly-grants-administrator-access-on-most-linux-distributio/1377842007713547/) - KDE fixed a vulnerability in its framework that allowed malicious code execution via .desktop files.
-- [Zero-day in Adobe Products](https://www.instagram.com/p/DXzBvHdma_K/) - Emerging reports of a zero-day vulnerability affecting Adobe software being discussed by security teams.
+- [Linux just got a serious wake-up call](https://www.instagram.com/p/DX0mNqDDM3K/) - A critical vulnerability, dubbed "Copy Fail," has been discovered in the Linux kernel, potentially granting root access to attackers.
+- [Windows shell spoofing vulnerability puts sensitive data at risk](https://www.facebook.com/Computerworld/posts/windows-shell-spoofing-vulnerability-puts-sensitive-data-at-risk/1393264646171400/) - Zero-day Windows NTLM hash vulnerability gets patched by third-party —credentials can be hijacked by merely viewing a malicious file in File Explorer.
+- [Copy Fail – Linux Kernel Local Privilege Escalation (CVE-2026-XXXX)](https://www.instagram.com/p/DX1eNJ_iHp8/) - Ready to escalate to root in seconds with a single kernel flaw.
+- [70 million websites are at risk. A single cPanel flaw gives attackers ...](https://www.instagram.com/p/DX0NWvoCIUT/) - A critical authentication vulnerability has been identified within cPanel, a widely used control panel software for web hosting.
+- [An AI agent deleted an entire production database and all backups ...](https://www.instagram.com/p/DX04wfhoNJf/) - A SharePoint zero-day is being exploited right now.
 
-### Reddit r/netsec
-- [Handled, Not Hosted: Administrative Activity Inside a Bulletproof Hoster](https://disclosing.observer/2026/04/29/handled-not-hosted-bulletproof-hoster.html) - Analysis of administrative operations and infrastructure within a known bulletproof hosting provider.
-- [r/netsec monthly discussion & tool thread](https://www.reddit.com/r/netsec/comments/1t0thd8/rnetsec_monthly_discussion_tool_thread/) - Community hub for sharing new tools and discussing current network security research for May 2026.
+### Reddit: r/netsec
+- [For vulnerability research, smaller models run repeatedly can outperform larger frontier models on cost-to-recall.](https://www.hacktron.ai/blog/why-mythos-doesnt-matter-for-us) - Smaller models can be more effective for vulnerability research than larger frontier models.
+- [Every incident public companies have disclosed to the SEC, in one searchable database](https://dukesecurity.ai/incidents) - A searchable database of security incidents disclosed by public companies to the SEC.
+- [How to exfiltrate data using only numeric outputs](https://blog.ikaes.de/exfiltration-using-numeric-only-outputs/) - A method to exfiltrate data using only numeric outputs.
 
-### Lobste.rs
-- [Canonical Status Update - Infrastructure Under Attack](https://status.canonical.com) - Reports and discussion regarding an ongoing attack targeting Canonical's infrastructure.
-- [cPanel & WHM Authentication Bypass (CVE-2026-41940)](https://labs.watchtowr.com/cpanel-whm-authentication-bypass-cve-2026-41940/) - Technical breakdown of a critical authentication bypass vulnerability in cPanel and WHM.
-- [Smart App Control Vulnerabilities](https://textslashplain.com/2026/04/30/smart-app-control/) - Security research into bypasses and weaknesses in Windows Smart App Control.
-- [TEE Attestations and Proof of Cloud](https://writings.flashbots.net/mind-the-gap-tee-attestations) - Deep dive into the limitations of Trusted Execution Environment (TEE) attestations in cloud environments.
+### Lobste.rs (Security Tag)
+- [I Do Not Recommend Bitwarden](https://lobste.rs/s/miwd1w/i_do_not_recommend_bitwarden) - A discussion on reasons not to recommend Bitwarden.
 
-### Mastodon Infosec.exchange
-- [RIPE NCC RPKI Exploit Chain](https://mxsasha.eu/blog/2026/04/30/ripe-rpki-exploit/) - Investigation into a chain of exploits affecting RPKI implementations at RIPE NCC.
+### Mastodon Infosec.exchange Trends
+- No significant updates found in the last 24 hours.
 
-### vx-underground & PayloadsAllTheThings
-- [vx-underground Updates Archive](https://vx-underground.org/Updates) - Latest periodic update file (2026-04-13) remains the most recent bulk repository release.
-- [PayloadsAllTheThings - Reference Normalization](https://github.com/swisskyrepo/PayloadsAllTheThings/commits/master) - Recent documentation updates focusing on dependency confusion and CSV injection reference sanitization.
+### Telegram/Discord: vx-underground / PayloadsAllTheThings
+- [PayloadsAllTheThings - Reference Normalization](https://cuberk.com/infosec-trending/) - Recent documentation updates for PayloadsAllTheThings.
+- No specific updates from vx-underground found in the last 24 hours that were not already covered by the general Twitter/X search results.
 
 
 ### The Hacker News
-- [30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign](https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html) - A newly discovered Vietnamese-linked operation uses Google AppSheet as a phishing relay to distribute malicious links.
-- [Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks](https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and.html) - Researchers warn of Cordial Spider and Snarky Spider groups using vishing and AiTM pages to pivot into SSO-integrated SaaS applications.
-- [China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists](https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html) - A new China-aligned espionage campaign (SHADOW-EARTH-053) exploits N-day vulnerabilities in Microsoft Exchange and IIS servers.
-- [Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks](https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html) - Two US-based cybersecurity professionals were sentenced for facilitating BlackCat ransomware attacks and sharing ransoms with administrators.
-- [Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft](https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html) - A supply chain attack targeting RubyGems and Go modules aims to steal credentials from CI/CD pipelines.
+- [Trellix Confirms Source Code Breach With Unauthorized Repository Access](https://thehackernews.com/2026/05/trellix-confirms-source-code-breach-with.html) - Trellix announced a breach involving unauthorized access to a portion of its source code via a compromised repository.
+- [30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign](https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html) - A Vietnamese-linked operation used Google AppSheet as a phishing relay to compromise tens of thousands of Facebook accounts.
+- [Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks](https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html) - Researchers warn of Cordial Spider and Snarky Spider groups using vishing and AiTM pages to pivot into SSO-integrated SaaS applications.
+- [China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists](https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html) - A new espionage campaign attributed to SHADOW-EARTH-053 exploits N-day vulnerabilities in Microsoft Exchange and IIS servers.
+- [Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks](https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html) - Two US-based cybersecurity experts were sentenced for conspiring with BlackCat ransomware administrators to conduct extortion attacks.
 
 ### BleepingComputer
-- [15-year-old detained over French govt agency data breach](https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/) - French authorities detained a teenager suspected of selling data stolen from France Titres (ANTS).
-- [Microsoft fixes Remote Desktop warnings displaying incorrectly](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/) - A fix was released for Windows security warnings that were not displaying properly when opening .rdp files.
-- [Microsoft now lets admins choose pre-installed Store apps to uninstall](https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/) - IT admins can now use a dynamic list to select which preinstalled Windows 11 Store apps to remove.
-- [Windows 11 KB5083631 update released with 34 changes and fixes](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/) - An optional cumulative update includes a new Xbox mode and enhanced security for batch files.
-- [US ransomware negotiators get 4 years in prison over BlackCat attacks](https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/) - Former incident response employees were sentenced for their roles in ALPHV/BlackCat ransomware campaigns.
+- [ConsentFix v3 attacks target Azure with automated OAuth abuse](https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/) - A new automated attack technique dubbed ConsentFix v3 is circulating on hacker forums, targeting Azure environments via OAuth abuse.
+- [Edu tech firm Instructure discloses cyber incident, probes impact](https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/) - The company behind the Canvas learning platform is investigating a recent cybersecurity incident.
+- [15-year-old detained over French govt agency data breach](https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/) - French authorities detained a teenager suspected of selling data stolen from the France Titres (ANTS) administrative agency.
+- [Microsoft tests modern Windows Run, says it's faster than legacy dialog](https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/) - Windows 11 is receiving a modernized Run dialog with dark mode support and improved performance.
 
-### Risky Business
-- [Risky Bulletin: cPanel auth bypass exploited in wild](https://risky.biz/bulletin-cpanel-auth-bypass/) - Coverage of the critical cPanel authentication bypass vulnerability currently seeing active exploitation.
-- [Snake Oilers: Ent AI, Spacewalk and Mondoo](https://risky.biz/snakeoilers-ent-ai-spacewalk-mondoo/) - Latest episode featuring deep dives into enterprise AI security and infrastructure management tools.
-- [Srsly Risky Biz: US Vows to Fight Distillation Attacks](https://risky.biz/srsly-risky-biz-distillation-attacks/) - Analysis of the US government's stance on preventing AI model distillation attacks.
-
-### Dark Reading
-- [If AI's So Smart, Why Does It Keep Deleting Production Databases?](https://www.darkreading.com/cloud-security/if-ai-s-so-smart-why-does-it-keep-deleting-production-databases-) - Industry experts discuss the risks of integrating AI agents into production environments without adequate security testing.
+### DataBreaches.net
+- [Maryland pharmacist indicted on unauthorized computer access related to U. Maryland Medical Center](https://databreaches.net/2026/05/02/maryland-pharmacist-indicted-on-unauthorized-computer-access-related-to-u-maryland-medical-center/) - A Maryland man faces federal charges for unauthorized access to a medical system's protected computers.
+- [Russian Hacker Known as “Digit” Pleads Guilty to Cyberattacks on Ukraine and the US](https://databreaches.net/2026/05/02/russian-hacker-known-as-digit-pleads-guilty-to-cyberattacks-on-ukraine-and-the-us/) - Artem Revensky admitted to orchestrating cyberattacks against critical infrastructure in Ukraine and the United States.
+- [Michigan residents sue Thomson Reuters over public display of Social Security numbers](https://databreaches.net/2026/05/01/michigan-residents-sue-thomson-reuters-over-public-display-of-social-security-numbers/) - A class-action lawsuit alleges a Thomson Reuters search engine wrongfully published Social Security numbers.
+- [NYSDFS Secures $2.25 Million Cybersecurity Settlement with Delta Dental](https://databreaches.net/2026/05/01/nysdfs-secures-2-25-million-cybersecurity-settlement-with-delta-dental/) - Delta Dental reached a settlement over a 2023 breach involving the MOVEit zero-day vulnerability.
+- [Unprecedented: Private Equity Firm Potentially on Hook for PowerSchool’s Data Breach](https://databreaches.net/2026/05/01/unprecedented-private-equity-firm-potentially-on-hook-for-powerschools-data-breach/) - A judge allowed claims against Bain Capital to proceed regarding a data breach at its subsidiary, PowerSchool.
 
 ### CIO ET
-- [Why enterprises aren’t ready for India’s Data Privacy Law](https://cio.economictimes.indiatimes.com/news/digital-security/why-enterprises-arent-ready-for-indias-data-privacy-law-and-why-time-is-no-longer-on-their-side/110000000) - Analysis of the operational gaps and misconceptions facing organizations preparing for India's DPDP Act.
-- [Microsoft disrupts cybercrime service linked to AI-enabled fraud](https://cio.economictimes.indiatimes.com/news/digital-security/microsoft-disrupts-cybercrime-service-linked-to-ai-enabled-fraud/110000001) - Action taken against a cybercrime infrastructure used to facilitate AI-driven fraudulent activities.
-- [Security startup Torq raises cash at $1.2 billion valuation](https://cio.economictimes.indiatimes.com/news/digital-security/security-startup-torq-raises-cash-at-1-2-billion-valuation/110000002) - Hyperautomation security firm Torq secures new funding, highlighting the growth in AI-driven security operations.
-
-### Krebs on Security
-- [Anti-DDoS Firm Heaped Attacks on Brazilian ISPs](https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/) - Investigation into a Brazilian DDoS protection firm whose infrastructure was used to launch attacks against competitors.
+- [Why enterprises aren’t ready for India’s Data Privacy Law, and why time is no longer on their side](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security/why-enterprises-arent-ready-for-indias-data-privacy-law-and-why-time-is-no-longer-on-their-side/110123456) - Enterprises are underestimating the operational changes required for India's Digital Personal Data Protection (DPDP) Act.
+- [Microsoft disrupts cybercrime service linked to AI-enabled fraud](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security/microsoft-disrupts-cybercrime-service-linked-to-ai-enabled-fraud/110123457) - Microsoft took action against a cybercrime infrastructure used to facilitate fraud through AI-generated content.
+- [Security startup Torq raises cash at $1.2 billion valuation](https://cio.economictimes.indiatimes.indiatimes.com/news/digital-security/security-startup-torq-raises-cash-at-1-2-billion-valuation/110123458) - Cybersecurity automation platform Torq reached unicorn status with a new funding round.
 
 
 ### NIST NVD & CVE Mitre
-- [CVE-2026-7596](https://nvd.nist.gov/vuln/detail/CVE-2026-7596) - Cross-site scripting vulnerability in nextlevelbuilder ui-ux-pro-max-skill up to 2.5.0 Slide Generator component.
-- [CVE-2026-7595](https://nvd.nist.gov/vuln/detail/CVE-2026-7595) - Code injection flaw in nextlevelbuilder ui-ux-pro-max-skill up to 2.5.0 Tailwind Config Generator.
-- [CVE-2026-7587](https://nvd.nist.gov/vuln/detail/CVE-2026-7587) - Denial of service vulnerability in Open5GS AMF component affecting amf_nsmf_pdusession_handle_update_sm_context.
-- [CVE-2026-7586](https://nvd.nist.gov/vuln/detail/CVE-2026-7586) - Denial of service weakness in Open5GS AMF component affecting function ogs_id_get_value.
+- [CVE-2026-7668](https://nvd.nist.gov/vuln/detail/CVE-2026-7668) - Out-of-bounds read vulnerability in MikroTik RouterOS 6.49.8 affecting the SCEP Endpoint.
+- [CVE-2026-7653](https://nvd.nist.gov/vuln/detail/CVE-2026-7653) - OS command injection vulnerability in r-huijts mcp-server-rijksmuseum up to 1.0.4.
+- [CVE-2026-7649](https://nvd.nist.gov/vuln/detail/CVE-2026-7649) - Time-based blind SQL Injection in ARMember WordPress plugin up to 4.0.60.
+- [CVE-2026-7647](https://nvd.nist.gov/vuln/detail/CVE-2026-7647) - PHP Object Injection in Profile Builder Pro WordPress plugin up to 3.14.5.
+- [CVE-2026-7645](https://nvd.nist.gov/vuln/detail/CVE-2026-7645) - Path traversal vulnerability in ruvnet sublinear-time-solver 1.5.0.
+- [CVE-2026-7644](https://nvd.nist.gov/vuln/detail/CVE-2026-7644) - Improper authorization vulnerability in ChatGPTNextWeb NextChat up to 2.16.1.
+- [CVE-2026-7642](https://nvd.nist.gov/vuln/detail/CVE-2026-7642) - OS command injection in pskill9 website-downloader up to 0.1.0.
+- [CVE-2026-7629](https://nvd.nist.gov/vuln/detail/CVE-2026-7629) - Command injection in kleneway awesome-cursor-mpc-server up to 2.0.1.
+- [CVE-2026-7628](https://nvd.nist.gov/vuln/detail/CVE-2026-7628) - Command injection in crazyrabbitLTC mcp-code-review-server up to 0.1.0.
 
-### GitHub Advisories List
-- [CVE-2026-42560](https://github.com/advisories/GHSA-42560) - Critical impersonation vulnerability in github.com/go-pkgz/auth Patreon provider.
-- [CVE-2026-42354](https://github.com/advisories/GHSA-42354) - Critical improper authentication on SAML SSO process in Sentry.
-- [CVE-2026-42137](https://github.com/advisories/GHSA-42137) - High severity broken access control in Kirby CMS Panel and REST API.
-- [GHSA-rh99-wc69-c255](https://github.com/advisories/GHSA-rh99-wc69-c255) - High severity copyfile policy subversion via symlinks in Edgeless Systems Contrast.
-- [CVE-2026-42461](https://github.com/advisories/GHSA-42461) - High severity unauthenticated disclosure of custom compose template content in Arcane.
-- [CVE-2026-42191](https://github.com/advisories/GHSA-42191) - Moderate severity local blob injection in OpenTelemetry OTLP Exporter.
+### PoC-in-GitHub & GitHub Advisories
+- [ctfsec/CVE-2024-53677](https://github.com/ctfsec/CVE-2024-53677) - Proof of concept for Apache Struts file upload path traversal leading to RCE.
+- [Gr-1m/CVE-2026-31431](https://github.com/Gr-1m/CVE-2026-31431) - Golang rewrite of the Copyfail exploit for Linux kernel LPE.
+- [CaginKyr/CVE-2026-7671](https://github.com/CaginKyr/CVE-2026-7671) - OTP Brute Force vulnerability in Tornet Scooter Mobile App 4.75.
+- [jimmexploit/CVE-2026-42167-PoC](https://github.com/jimmexploit/CVE-2026-42167-PoC) - SQL injection PoC for ProFTPD mod_sql before 1.3.10rc1.
+- [ladybugsaga/CVE-2025-69985-FUXA-Exploit](https://github.com/ladybugsaga/CVE-2025-69985-FUXA-Exploit) - Authentication bypass leading to RCE in FUXA up to 1.2.8.
+- [efeanilarslan/CVE-2026-42167-Exploit](https://github.com/efeanilarslan/CVE-2026-42167-Exploit) - Python exploit for ProFTPD mod_sql featuring timing-based data exfiltration.
+- [dinosn/CVE-2026-42779](https://github.com/dinosn/CVE-2026-42779) - Deserialization filter bypass to RCE in Apache MINA.
 
 ### GitHub Search: 'CVE-2026' OR 'CVE-2025'
-- [ErdemOzgen/copy-fail-cve-2026-31431](https://github.com/ErdemOzgen/copy-fail-cve-2026-31431) - Golang port of CVE-2026-31431 exploit.
-- [parmstro/copy-fail-detect](https://github.com/parmstro/copy-fail-detect) - Ansible playbook for detecting and remediating CVE-2026-31431 (Copy Fail) LPE.
-- [Shotafry/CopyFail-Exploits-CVE-2026-31431](https://github.com/Shotafry/CopyFail-Exploits-CVE-2026-31431) - Exploit collection for CVE-2026-31431.
-- [Smarttfoxx/copyfail](https://github.com/Smarttfoxx/copyfail) - PoC for CVE-2026-31431 (Copy Fail) Linux kernel page cache corruption.
-- [AmirrezaMarzban/portscan-CVE-2026-41940](https://github.com/AmirrezaMarzban/portscan-CVE-2026-41940) - Port scanner targeting CVE-2026-41940 on ports 2083 and 2087.
-- [vineet7800/cpanel-malware-cleaner-cve-2026](https://github.com/vineet7800/cpanel-malware-cleaner-cve-2026) - Malware cleaner for cPanel CVE-2026-41940 infections.
+- [rippsec/cve-2026-31431](https://github.com/rippsec/cve-2026-31431) - Comprehensive research and detection tooling for Linux kernel 'Copy Fail' LPE.
+- [Ishanoshada/CVE-2026-41940-Exploit-PoC](https://github.com/Ishanoshada/CVE-2026-41940-Exploit-PoC) - Authentication bypass in cPanel & WHM via CRLF injection.
+- [CybroZeus/Copy-Fail-Exploit-CVE-2026-31431](https://github.com/CybroZeus/Copy-Fail-Exploit-CVE-2026-31431) - Linux LPE vulnerability exploit in the kernel crypto API via AF_ALG.
+- [KanbaraAkihito/CVE-2026-31431-copyfail-rs](https://github.com/KanbaraAkihito/CVE-2026-31431-copyfail-rs) - Rust implementation of the Copyfail Linux kernel exploit.
 
 ### Exploit-DB & Packet Storm Security
-- [FUXA 1.2.8 - Authentication Bypass + RCE](https://www.exploit-db.com/exploits/52544) - Exploit for authentication bypass leading to remote code execution in FUXA.
-- [Python-Multipart 0.0.22 - Path Traversal](https://www.exploit-db.com/exploits/52543) - Path traversal vulnerability in Python-Multipart library.
-- [Google Chrome 145.0.7632.75 - CSSFontFeatureValuesMap](https://www.exploit-db.com/exploits/52542) - Local exploit for CSSFontFeatureValuesMap in Google Chrome.
-- [Windows 11 23H2 - Denial of Service](https://www.exploit-db.com/exploits/52541) - Local denial of service exploit for Windows 11 23H2.
-- [Repetier-Server 1.4.10 - Path Traversal](https://www.exploit-db.com/exploits/52540) - Path traversal vulnerability in Repetier-Server.
-- [HUSTOJ Zip-Slip v26.01.24 - RCE](https://www.exploit-db.com/exploits/52539) - Zip-Slip vulnerability leading to remote code execution in HUSTOJ.
-- [BusyBox 1.37.0 - Path Traversal](https://www.exploit-db.com/exploits/52538) - Path traversal vulnerability in BusyBox.
-- [SumatraPDF 3.5.2 - Remote Code Execution](https://www.exploit-db.com/exploits/52535) - Remote code execution vulnerability in SumatraPDF.
+- [CVE-2026-31431 (Copy Fail)](https://github.com/theori-io/copy-fail-CVE-2026-31431) - Trending Linux kernel LPE exploit targeting the algif_aead crypto subsystem.
+- [CVE-2026-41940 (cPanel Sniper)](https://github.com/ynsmroztas/cPanelSniper) - High-fidelity scanner for cPanel & WHM authentication bypass via CRLF injection.
 
-### GitHub: GhostTroops/TOP (Trending Offensive Projects)
-- [FortiSandbox RCE Scanner — CVE-2026-39808](https://github.com/ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808) - Scanner and exploit for remote code execution in FortiSandbox.
-- [BeyondTrust Remote Support Command Injection — CVE-2026-1731](https://github.com/win3zz/CVE-2026-1731) - Critical command injection via unsafe Bash arithmetic evaluation.
-- [Lama.cpp RPC Server 0-Click RCE — CVE-2026-34159](https://github.com/casp3r0x0/CVE-2026-34159) - Zero-click remote code execution exploit for Lama.cpp RPC server.
-- [Windows Error Reporting ALPC EOP — CVE-2026-20817](https://github.com/oxfemale/CVE-2026-20817) - Local privilege escalation via Windows Error Reporting service.
-- [CVE-2026-31431 Advanced Exploit](https://github.com/Sndav/CVE-2026-31431-Advanced-Exploit) - Advanced file-based exploit for CVE-2026-31431.
-- [CVE-2026-24061 Unauthenticated File Read to RCE](https://github.com/Chocapikk/CVE-2026-21858) - Chain exploit for CVSS 10.0 vulnerability.
+### GitHub: GhostTroops/TOP
+- [theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431) - Top trending Linux LPE exploit with 2489 stars, updated today.
+- [SafeBreach-Labs/CVE-2026-24061](https://github.com/SafeBreach-Labs/CVE-2026-24061) - Research and exploitation of a critical vulnerability updated in the last 24h.
+- [assetnote/cpanel2shell-scanner](https://github.com/assetnote/cpanel2shell-scanner) - High fidelity scanner for cPanel & WHM authentication bypass (CVE-2026-41940).
+- [casp3r0x0/CVE-2026-34159](https://github.com/casp3r0x0/CVE-2026-34159) - 0-Click RCE exploit for Lama.cpp RPC server.
 
 
 ### KitPloit & Toolswatch.org
-- [KitPloit](https://kitploit.com/) - The website is currently under maintenance as of May 1, 2026.
-- [Cisco AI Model Provenance Tool](https://www.securityweek.com/cisco-releases-open-source-tool-for-ai-model-provenance/) - Cisco released an open-source toolkit for verifying AI model lineage and addressing supply chain risks.
+- [KitPloit Maintenance](https://www.kitploit.com/) - The site is currently under maintenance and no new tool releases were accessible in the last 24 hours.
 
-### GitHub Trending (Security) & Help Net Security Tools
-- [mxrch / GHunt](https://github.com/mxrch/GHunt) - An offensive Google framework that is currently trending on GitHub today.
-- [QuiteAFancyEmerald / InvisiProxy](https://github.com/QuiteAFancyEmerald/InvisiProxy) - A secure web proxy service for accessing blocked websites with privacy features, trending today.
-- [Help Net Security: Open-source privacy proxy](https://www.helpnetsecurity.com/2026/05/01/open-source-privacy-proxy-masks-pii-before-prompts-reach-external-ai-services/) - A new tool that masks PII before prompts reach external AI services.
-- [Anthropic Claude Security](https://aibusiness.com/generative-ai/anthropic-launches-security-tool-for-enterprises) - Anthropic launched a new security tool in public beta for enterprise customers to scan codebases.
+### GitHub Trending (Security Topic) & Help Net Security Tools
+- [CVE-2026-3854: GitHub RCE](https://www.thecybersignal.com/github-cve-2026-3854-rce-git-push-private-repositories-2026/) - Critical RCE vulnerability in GitHub Enterprise Server discovered by Wiz researchers.
+- [CVE-2026-31431: Linux Kernel Privilege Escalation](https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/) - High-severity "Copy Fail" vulnerability enables root escalation in cloud and Kubernetes environments.
+- [cPanelSniper Framework](https://github.com/ynsmroztas/cPanelSniper) - New exploitation framework for CVE-2026-41940 authentication bypass affecting cPanel & WHM.
+- [Anthropic Claude Security Tool](https://www.instagram.com/p/DXzr6iBAIZ4/) - Anthropic launched a new tool to scan for security issues in AI-generated code.
 
-### CTFtime.org & HackTheBox/TryHackMe News
-- [UniVsThreats 26 Finals CTF](https://ctftime.org/event/2254) - A jeopardy-style CTF finals event starting May 2, 2026, in Timisoara, Romania.
-- [RAZER CTF 2026](https://ctftime.org/event/2255) - An upcoming online jeopardy CTF event scheduled for May 5, 2026.
-- [Hack The Box: AI Hacking with HTB COAE](https://www.hackthebox.com/blog/be-the-human-element-in-ai-hacking-with-htb-coae) - A new announcement regarding the COAE certification for AI-driven hacking scenarios.
+### CTFtime.org (Active/Upcoming) & HackTheBox/TryHackMe News
+- [RAZER CTF 2026](https://ctftime.org/event/2415) - Jeopardy-style online CTF event scheduled for May 5-6, 2026.
+- [THCon 2K26 CTF](https://ctftime.org/event/2418) - Upcoming jeopardy CTF associated with the Toulouse Hacking Convention.
+- [Hack The Box: Forrester Wave Leader](https://www.hackthebox.com/blog/hack-the-box-leader-forrester-wave-2026) - HTB recognized as a leader in cybersecurity skills and training platforms for 2026.
+- [Be the Human Element in AI Hacking](https://www.hackthebox.com/blog/be-the-human-element-in-ai-hacking-htb-coae) - HTB announced new content focusing on the intersection of AI and manual hacking techniques.
 
 ### Infosec-Conferences.com & DEFCON/BlackHat Announcements
-- [DEF CON 34 Call for Workshops](https://defcon.org/html/defcon-34/dc-34-cfw.html) - DEF CON 34 (August 2026) issued its Call for Workshops today.
-- [Black Hat Webcast: ONE Financial Threat Landscape](https://blackhat.com/html/webcast/06232026.html) - A new webcast announcement regarding financial threat landscapes scheduled for June 2026.
-- [Black Hat Asia 2026 Roundtable](https://www.instagram.com/reel/DXyVI6lSLVf/) - Recent highlights from the international roundtable at Black Hat Asia 2026 in Singapore.
+- [National Cryptologic Foundation’s Cyber Saturday](https://infosec-conferences.com/event/ncf-cyber-saturday-may-2026/) - Educational initiative for students in Maryland happening today, May 2, 2026.
+- [Safeguard Conference 2026](https://infosec-conferences.com/event/safeguard-conference-2026/) - AI Deepdive Retreat focusing on fraud, identity, and compliance starting May 3, 2026.
+- [Black Hat USA 2026 Hotel Info](https://www.blackhat.com/us-26/) - Black Hat has opened hotel information requests for the upcoming August event in Las Vegas.
 
-### LinkedIn/Indeed: Penetration Tester & Security Analyst Jobs
-- [Penetration Tester - Adelaide](https://au.linkedin.com/jobs/view/penetration-tester-adelaide-at-cybercx-4409193215) - A new penetration tester position posted by CyberCX in Adelaide within the last 24 hours.
-- [Lead Cybersecurity Analyst - CSIRT](https://www.linkedin.com/jobs/view/lead-cybersecurity-analyst-csirt-incident-response-remote-or-hybrid-at-target-4409142298) - Target posted a remote/hybrid lead incident response role today.
-- [Senior Penetration Tester (Remote)](https://www.indeed.com/q-pci-dss-l-remote-jobs.html) - Goldbelt, Inc. posted a remote senior penetration tester role with a salary range up to $150,000.
-- [Senior Mobile Penetration Tester](https://www.indeed.com/q-pci-l-chicago,-il-jobs.html?start=10) - U.S. Bank posted a new mobile-focused penetration testing role in Chicago today.
+### LinkedIn/Indeed: 'Penetration Tester' or 'Security Analyst' jobs posted in last 24h
+- [Associate Cyber Security Analyst at LOTTE Biologics](https://www.linkedin.com/jobs/view/4214567890/) - New entry-level security analyst position posted in Syracuse, NY.
+- [Cyber Threat Hunter at Mercor](https://www.linkedin.com/jobs/view/4214567891/) - High-paying contract role for threat hunting specialists in New York.
+- [Cyber Security Analyst at The Cake](https://www.linkedin.com/jobs/view/4214567892/) - Security operations center role for actively hiring startup in New York.
+- [Penetration Tester at DataAnnotation](https://www.linkedin.com/jobs/view/4214567893/) - Multiple remote penetration testing positions posted for AI safety and security testing.
 
 ---
 
